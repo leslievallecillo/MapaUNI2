@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UNI-WAY | Sistema de Navegación Universitaria</title>
+<link rel="stylesheet" href="css/style.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+<div id="loader-wrapper">
+    <div class="loader-content">
+        <svg class="loader-svg" viewBox="0 0 250 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="bodyGradLoader" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#4da6ff" />
+                    <stop offset="100%" stop-color="#0044cc" />
+                </linearGradient>
+                <linearGradient id="shoeGradLoader" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#3388ff" />
+                    <stop offset="100%" stop-color="#003399" />
+                </linearGradient>
+            </defs>
+            <path d="M 10 185 Q 125 195 240 185" fill="none" stroke="#00d2ff" stroke-width="8" stroke-linecap="round" class="loader-path" opacity="0.3" />
+            <g class="mascot1-leg-left">
+                <rect x="45" y="140" width="12" height="30" fill="#003399" rx="5" />
+                <path d="M 35 165 C 35 160 65 160 65 165 L 65 175 C 65 180 35 180 35 175 Z" fill="url(#shoeGradLoader)" />
+                <path d="M 35 172 L 65 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-leg-right">
+                <rect x="95" y="140" width="12" height="30" fill="#002277" rx="5" />
+                <path d="M 85 165 C 85 160 115 160 115 165 L 115 175 C 115 180 85 180 85 175 Z" fill="url(#shoeGradLoader)" />
+                <path d="M 85 172 L 115 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-body-group">
+                <rect x="-5" y="80" width="30" height="40" fill="#ffb833" rx="8" />
+                <rect x="2" y="85" width="16" height="15" fill="#ffcc66" rx="4" />
+                <rect x="20" y="50" width="130" height="100" rx="20" fill="url(#bodyGradLoader)" />
+                <path d="M 20 70 L 60 70 L 60 120 L 90 120 L 90 80 L 120 80 L 120 150" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="50" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="52" cy="118" r="1.5" fill="#ffffff" />
+                <circle cx="80" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="82" cy="118" r="1.5" fill="#ffffff" />
+                <path d="M 58 130 Q 65 138 72 130" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" />
+                <g class="mascot1-arm-left">
+                    <path d="M 25 100 Q 10 110 15 125" fill="none" stroke="#4da6ff" stroke-width="10" stroke-linecap="round" />
+                    <circle cx="15" cy="128" r="8" fill="#ffffff" />
+                    <g transform="translate(-5, 110) rotate(-20)">
+                        <path d="M 0 0 L 25 -5 L 25 15 L 0 20 Z" fill="#ffffff" stroke="#003399" stroke-width="1.5" stroke-linejoin="round" />
+                        <path d="M 8.3 -1.6 L 8.3 18.3 M 16.6 -3.3 L 16.6 16.6" stroke="#003399" stroke-width="1" />
+                        <circle cx="12" cy="8" r="2" fill="#ff3333" />
+                    </g>
+                </g>
+            </g>
+        </svg>
+        <h2 class="loader-text">Cargando...</h2>
+    </div>
+</div>
+
+<header class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="#inicio" class="logo">
+            <img src="https://i.postimg.cc/MZYgXCXD/1781842311259.png" alt="Logo UNI-WAY" class="logo-img">
+            <span>UNI-WAY</span>
+        </a>
+        <nav class="nav-links">
+            <a href="#inicio" class="active">Inicio</a>
+            <a href="destinos.html">Destinos</a>
+            <a href="guia.html">Guía UNI</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contactos.html">Contacto</a>
+        </nav>
+        <div class="nav-actions">
+        </div>
+    </div>
+</header>
+
+<div class="video-container">
+    <div class="video-overlay"></div>
+    <video autoplay loop muted playsinline id="bg-video" preload="auto">
+        <source src="https://www.image2url.com/r2/default/videos/1781839172163-fedc91c0-8150-4fb2-b725-fa6f9d84cd28.mp4" type="video/mp4">
+    </video>
+</div>
+
+<main class="hero-section" id="inicio">
+    <div class="hero-content" id="hero-content">
+        <div class="version-badge">
+            <div class="pulse-dot"></div>
+            <span>SISTEMA DE NAVEGACIÓN UNIVERSITARIA · V2.4</span>
+        </div>
+
+        <h1 class="main-heading">
+            Explora tu <span class="text-gradient">Campus</span>
+        </h1>
+
+        <p class="hero-description">
+            Navega por nuestro recinto en tiempo real. Encuentra edificios, servicios y espacios académicos con un solo clic.
+        </p>
+
+        <div class="button-group">
+            <a href="#populares-preview" class="btn btn-primary">
+                <i class="fa-solid fa-location-arrow"></i> Explorar Destinos
+            </a>
+            <a href="#sobre-campus" class="btn btn-secondary">
+                <i class="fa-solid fa-circle-info"></i> Conocer el Proyecto
+            </a>
+        </div>
+    </div>
+</main>
+
+<section class="info-section hidden-scroll" id="sobre-campus">
+    <div class="container layout-grid">
+        <div class="info-text">
+            <h2>Conoce la Universidad Nacional de Ingenieria</h2>
+            <p>Nuestra plataforma está diseñada para facilitar la movilidad de todos los estudiantes, docentes y visitantes. Entendemos que en un recinto amplio, encontrar el laboratorio y salon de clases correcto puede ser un desafío.</p>
+            <p>UNI-WAY unifica la información del recinto. Hemos facilitado esta herramienta para que optimices tu tiempo.</p>            
+        </div>
+        <div class="info-visual delay-1">
+            <div class="glass-card animated-float" style="padding: 0; overflow: hidden; border-radius: 20px;">
+                <img src="https://i.postimg.cc/GtVbN600/UNI-Seminario-Habilidades-Directivas-Coaching-Gerencial-168.jpg" alt="Tecnología Escalable UNI" style="width: 100%; height: 100%; object-fit: cover; display: block; min-height: 300px;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="populares-preview" class="hidden-scroll" style="padding: 60px 0; background: #f8f9fa;">
+    <div class="container-nuevo">
+        <h2 class="section-title">Destinos <span class="text-dark-blue">Frecuentes</span></h2>
+        <p class="section-subtitle">Los lugares más visitados por la comunidad universitaria</p>
+        <div class="popular-grid">
+            <div class="card">
+                <div style="overflow: hidden;">
+                    <img src="https://i.postimg.cc/0N4F8tXf/IMG-20260428-WA0343.jpg" alt="Biblioteca" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x200/0f2b6b/ffffff?text=Biblioteca';">
+                </div>
+                <div class="card-body">
+                    <h3>Biblioteca Central</h3>
+                    <p>Estudio y Recursos</p>
+                    <button class="btn-select" onclick="window.location.href='destinos.html'">Ver Ruta</button>
+                </div>
+            </div>
+            <div class="card">
+                <div style="overflow: hidden;">
+                    <img src="https://i.postimg.cc/XYVTxBy5/IMG-20260428-WA0405.jpg" alt="Auditorio Salomón de la Selva" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x200/0f2b6b/ffffff?text=Auditorio';">
+                </div>
+                <div class="card-body">
+                    <h3>Auditorio Salomón de la Selva</h3>
+                    <p>Eventos y Conferencias</p>
+                    <button class="btn-select" onclick="window.location.href='destinos.html'">Ver Ruta</button>
+                </div>
+            </div>
+            <div class="card">
+                <div style="overflow: hidden;">
+                    <img src="https://i.postimg.cc/NM3K2dDm/Captura-de-pantalla-2026-06-18-235641.png" alt="Secretaria" onerror="this.onerror=null; this.src='https://via.placeholder.com/400x200/0f2b6b/ffffff?text=Secretaría';">
+                </div>
+                <div class="card-body">
+                    <h3>Secretaría Académica</h3>
+                    <p>Trámites Estudiantiles</p>
+                    <button class="btn-select" onclick="window.location.href='destinos.html'">Ver Ruta</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="como-funciona-nuevo" class="hidden-scroll" style="padding: 60px 0; background: #ffffff;">
+    <div class="container-nuevo">
+        <h2 class="section-title">¿Cómo <span class="text-dark-blue">Funciona?</span></h2>
+        <p class="section-subtitle">Tres pasos simples para navegar el campus sin complicaciones</p>
+        <div class="steps-wrapper">
+            <div class="step-box">
+                <div class="step-icon"><span class="material-icons">search</span></div>
+                <h3>1. Busca tu destino</h3>
+                <p>Escribe el nombre del aula, laboratorio o edificio al que necesitas llegar.</p>
+            </div>
+            <div class="step-box">
+                <div class="step-icon"><span class="material-icons">touch_app</span></div>
+                <h3>2. Selecciona la ruta</h3>
+                <p>Elige entre ver el entorno virtual 360° o usar el GPS asistido.</p>
+            </div>
+            <div class="step-box">
+                <div class="step-icon"><span class="material-icons">map</span></div>
+                <h3>3. Llega sin perderte</h3>
+                <p>Sigue las indicaciones en tiempo real y calcula tu tiempo de llegada.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="testimonios-nuevo" class="hidden-scroll" style="padding: 60px 0; background: #f8f9fa;">
+    <div class="container-nuevo">
+        <h2 class="section-title">Testimonios <span class="text-dark-blue">Estudiantiles</span></h2>
+        <p class="section-subtitle">Lo que dice nuestra comunidad sobre UNI-WAY</p>
+        <div class="testimonials-grid-new">
+            <div class="testimonio-card">
+                <div class="stars">★★★★★</div>
+                <p>"Gracias a esta plataforma encontré mi aula en el Edificio Rigoberto en menos de 5 minutos en mi primer día de clases."</p>
+                <strong>- Carlos M.</strong>
+            </div>
+            <div class="testimonio-card">
+                <div class="stars">★★★★★</div>
+                <p>"Los videos guiados son increíbles. Sientes que ya caminaste por el campus antes de siquiera llegar."</p>
+                <strong>- Ana P.</strong>
+            </div>
+            <div class="testimonio-card">
+                <div class="stars">★★★★★</div>
+                <p>"La ubicación de los cafetines me salvó la vida en semana de exámenes. Excelente iniciativa estudiantil."</p>
+                <strong>- Luis R.</strong>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="corner-widget" onclick="window.location.href='destinos.html'">
+    <div class="corner-bubble">Inicia tu recorrido<br><strong>Navegación Activa</strong></div>
+    <div class="corner-svg-container">
+        <svg class="svg-mascot" viewBox="0 0 250 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="bodyGradCorner" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#4da6ff" />
+                    <stop offset="100%" stop-color="#0044cc" />
+                </linearGradient>
+                <linearGradient id="shoeGradCorner" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#3388ff" />
+                    <stop offset="100%" stop-color="#003399" />
+                </linearGradient>
+            </defs>
+            <g class="mascot1-leg-left">
+                <rect x="45" y="140" width="12" height="30" fill="#003399" rx="5" />
+                <path d="M 35 165 C 35 160 65 160 65 165 L 65 175 C 65 180 35 180 35 175 Z" fill="url(#shoeGradCorner)" />
+                <path d="M 35 172 L 65 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-leg-right">
+                <rect x="95" y="140" width="12" height="30" fill="#002277" rx="5" />
+                <path d="M 85 165 C 85 160 115 160 115 165 L 115 175 C 115 180 85 180 85 175 Z" fill="url(#shoeGradCorner)" />
+                <path d="M 85 172 L 115 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-body-group">
+                <rect x="-5" y="80" width="30" height="40" fill="#ffb833" rx="8" />
+                <rect x="2" y="85" width="16" height="15" fill="#ffcc66" rx="4" />
+                <rect x="20" y="50" width="130" height="100" rx="20" fill="url(#bodyGradCorner)" />
+                <path d="M 20 70 L 60 70 L 60 120 L 90 120 L 90 80 L 120 80 L 120 150" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="50" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="52" cy="118" r="1.5" fill="#ffffff" />
+                <circle cx="80" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="82" cy="118" r="1.5" fill="#ffffff" />
+                <path d="M 58 130 Q 65 138 72 130" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" />
+                <g class="mascot1-arm-left">
+                    <path d="M 25 100 Q 10 110 15 125" fill="none" stroke="#4da6ff" stroke-width="10" stroke-linecap="round" />
+                    <circle cx="15" cy="128" r="8" fill="#ffffff" />
+                </g>
+            </g>
+        </svg>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-container container">
+        <div class="footer-info">
+            <h3 class="logo-footer">
+                <img src="https://i.postimg.cc/MZYgXCXD/1781842311259.png" alt="Logo UNI-WAY" class="logo-img">
+                UNI-WAY
+            </h3>
+            <p>Guía interactiva para la movilidad y ubicación en el Recinto Universitario.</p>
+        </div>
+        <div class="footer-enlaces">
+            <h4>Estructura</h4>
+            <ul>
+                <li><a href="nosotros.html">Propuesta de Valor</a></li>
+                <li><a href="destinos.html">Directorio Espacial</a></li>
+                <li><a href="nosotros.html#equipo">Equipo de Desarrollo</a></li>
+            </ul>
+        </div>
+        <div class="footer-contacto">
+            <h4>Información</h4>
+            <p><i class="fa-solid fa-envelope"></i> operaciones@uniway.edu.ni</p>
+            <p><i class="fa-solid fa-location-dot"></i> Instalaciones UNI, Managua.</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 UNI-WAY. Implementado por Ingeniería de Sistemas. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>

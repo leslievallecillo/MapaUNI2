@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guía UNI | UNI-WAY</title>
+    <link rel="stylesheet" href="css/guia.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="loader-wrapper">
+    <div class="loader-content">
+        <svg class="loader-svg" viewBox="0 0 250 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="bodyGradLoader" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#4da6ff" />
+                    <stop offset="100%" stop-color="#0044cc" />
+                </linearGradient>
+                <linearGradient id="shoeGradLoader" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#3388ff" />
+                    <stop offset="100%" stop-color="#003399" />
+                </linearGradient>
+            </defs>
+            <path d="M 10 185 Q 125 195 240 185" fill="none" stroke="#00d2ff" stroke-width="8" stroke-linecap="round" class="loader-path" opacity="0.3" />
+            <g class="mascot1-leg-left">
+                <rect x="45" y="140" width="12" height="30" fill="#003399" rx="5" />
+                <path d="M 35 165 C 35 160 65 160 65 165 L 65 175 C 65 180 35 180 35 175 Z" fill="url(#shoeGradLoader)" />
+                <path d="M 35 172 L 65 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-leg-right">
+                <rect x="95" y="140" width="12" height="30" fill="#002277" rx="5" />
+                <path d="M 85 165 C 85 160 115 160 115 165 L 115 175 C 115 180 85 180 85 175 Z" fill="url(#shoeGradLoader)" />
+                <path d="M 85 172 L 115 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-body-group">
+                <rect x="-5" y="80" width="30" height="40" fill="#ffb833" rx="8" />
+                <rect x="2" y="85" width="16" height="15" fill="#ffcc66" rx="4" />
+                <rect x="20" y="50" width="130" height="100" rx="20" fill="url(#bodyGradLoader)" />
+                <path d="M 20 70 L 60 70 L 60 120 L 90 120 L 90 80 L 120 80 L 120 150" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="50" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="52" cy="118" r="1.5" fill="#ffffff" />
+                <circle cx="80" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="82" cy="118" r="1.5" fill="#ffffff" />
+                <path d="M 58 130 Q 65 138 72 130" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" />
+                <g class="mascot1-arm-left">
+                    <path d="M 25 100 Q 10 110 15 125" fill="none" stroke="#4da6ff" stroke-width="10" stroke-linecap="round" />
+                    <circle cx="15" cy="128" r="8" fill="#ffffff" />
+                    <g transform="translate(-5, 110) rotate(-20)">
+                        <path d="M 0 0 L 25 -5 L 25 15 L 0 20 Z" fill="#ffffff" stroke="#003399" stroke-width="1.5" stroke-linejoin="round" />
+                        <path d="M 8.3 -1.6 L 8.3 18.3 M 16.6 -3.3 L 16.6 16.6" stroke="#003399" stroke-width="1" />
+                        <circle cx="12" cy="8" r="2" fill="#ff3333" />
+                    </g>
+                </g>
+            </g>
+        </svg>
+        <h2 class="loader-text">Cargando...</h2>
+    </div>
+</div>
+
+<header class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="logo">
+            <img src="https://i.postimg.cc/MZYgXCXD/1781842311259.png" alt="Logo UNI-WAY" class="logo-img">
+            <span>UNI-WAY</span>
+        </a>
+        <nav class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="destinos.html">Destinos</a>
+            <a href="guia.html" class="active">Guía UNI</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contactos.html">Contacto</a>
+        </nav>
+        <div class="nav-actions">
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="hero-uni">
+        <div class="hero-bg-particles">
+            <div class="particle particle-1"></div>
+            <div class="particle particle-2"></div>
+            <div class="particle particle-3"></div>
+            <div class="particle particle-4"></div>
+            <div class="particle particle-5"></div>
+            <div class="particle particle-6"></div>
+            <div class="particle particle-7"></div>
+            <div class="particle particle-8"></div>
+        </div>
+        <div class="hero-content">
+            <div class="version-badge">
+                <div class="pulse-dot"></div>
+                <span>Guía Institucional · UNI</span>
+            </div>
+            <h1 class="main-heading">
+                Universidad Nacional de <span class="text-gradient">Ingeniería</span>
+            </h1>
+            <p class="hero-description">
+                Plataforma institucional e interactiva desarrollada para brindar orientación, información académica y recursos útiles a estudiantes de la Universidad Nacional de Ingeniería (UNI).
+            </p>
+            <div class="button-group">
+                <a href="https://www.uni.edu.ni/" target="_blank" class="btn btn-primary">
+                    <i class="fa-solid fa-globe"></i> Sitio Oficial UNI
+                </a>
+            </div>
+        </div>
+        <div class="hero-shape-divider">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 C300,80 700,0 1200,60 L1200,120 L0,120 Z" fill="#ffffff"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section class="info-section hidden-scroll" id="conoce-uni">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Sobre la UNI</span>
+                <h2 class="section-title">Conoce la <span class="text-dark-blue">Universidad</span></h2>
+            </div>
+            <div class="institucional-box">
+                <div class="institucional-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <p>
+                    La Universidad Nacional de Ingeniería (UNI) es una institución de educación superior comprometida con la formación de profesionales altamente capacitados en las áreas de ingeniería, arquitectura y tecnologías aplicadas.
+                </p>
+                <p>
+                    La UNI se caracteriza por promover la innovación, la investigación científica, el desarrollo tecnológico y el compromiso social, contribuyendo activamente al crecimiento y desarrollo del país mediante la formación integral de sus estudiantes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="identidad-section hidden-scroll" id="identidad">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Identidad</span>
+                <h2 class="section-title">Identidad <span class="text-dark-blue">Institucional</span></h2>
+            </div>
+            <div class="info-grid">
+                <div class="info-card">
+                    <div class="info-icon-wrapper">
+                        <div class="info-icon"><i class="fa-solid fa-flag"></i></div>
+                    </div>
+                    <h3>Misión</h3>
+                    <p>Formar profesionales integrales en ingeniería y arquitectura con excelencia académica, capacidad científica, tecnológica y humanística, comprometidos con el desarrollo sostenible y la transformación social del país.</p>
+                    <div class="info-card-glow"></div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon-wrapper">
+                        <div class="info-icon"><i class="fa-solid fa-eye"></i></div>
+                    </div>
+                    <h3>Visión</h3>
+                    <p>Ser una universidad líder en innovación, investigación y formación tecnológica, reconocida nacional e internacionalmente por su calidad educativa y su aporte al desarrollo científico y social.</p>
+                    <div class="info-card-glow"></div>
+                </div>
+                <div class="info-card">
+                    <div class="info-icon-wrapper">
+                        <div class="info-icon"><i class="fa-solid fa-medal"></i></div>
+                    </div>
+                    <h3>Valores</h3>
+                    <p>La UNI promueve valores como responsabilidad, ética profesional, innovación, compromiso social, respeto, excelencia académica y trabajo colaborativo en beneficio de la comunidad universitaria.</p>
+                    <div class="info-card-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="carreras-section hidden-scroll" id="carreras">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Áreas de estudio</span>
+                <h2 class="section-title">Áreas de <span class="text-dark-blue">Conocimiento</span></h2>
+                <p class="section-subtitle">Explora las diferentes áreas académicas de la UNI y descubre las carreras disponibles en cada una.</p>
+            </div>
+            
+            <div class="filtros-carreras">
+                <button class="btn-filtro activo" data-filter="all">Todas</button>
+                <button class="btn-filtro" data-filter="dactic">DACTIC</button>
+                <button class="btn-filtro" data-filter="dacip">Industria</button>
+                <button class="btn-filtro" data-filter="daca">Agricultura</button>
+                <button class="btn-filtro" data-filter="dacac">Arquitectura</button>
+            </div>
+
+            <div class="carreras-grid">
+                <div class="carrera-card" data-category="dactic">
+                    <div class="carrera-card-image">
+                        <i class="fa-solid fa-computer"></i>
+                        <div class="carrera-card-overlay">
+                            <span class="carrera-count">4 carreras</span>
+                        </div>
+                    </div>
+                    <div class="carrera-card-body">
+                        <h3>Tecnología de la Información</h3>
+                        <p class="carrera-sub">DACTIC</p>
+                        <div class="carrera-tags">
+                            <span>Sistemas</span>
+                            <span>Computación</span>
+                            <span>Electrónica</span>
+                            <span>Telecomunicaciones</span>
+                        </div>
+                        <button class="btn-ver-carreras" onclick="mostrarCarreras('DACTIC', ['Ingeniería en Sistemas', 'Ingeniería en Computación', 'Ingeniería Electrónica', 'Ingeniería en Telecomunicaciones'])">
+                            Ver carreras <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="carrera-card" data-category="dacip">
+                    <div class="carrera-card-image">
+                        <i class="fa-solid fa-industry"></i>
+                        <div class="carrera-card-overlay">
+                            <span class="carrera-count">4 carreras</span>
+                        </div>
+                    </div>
+                    <div class="carrera-card-body">
+                        <h3>Industria y Producción</h3>
+                        <p class="carrera-sub">DACIP</p>
+                        <div class="carrera-tags">
+                            <span>Mecánica</span>
+                            <span>Eléctrica</span>
+                            <span>Industrial</span>
+                            <span>Economía</span>
+                        </div>
+                        <button class="btn-ver-carreras" onclick="mostrarCarreras('DACIP', ['Ingeniería Mecánica', 'Ingeniería Eléctrica', 'Ingeniería Industrial', 'Economía y Negocios'])">
+                            Ver carreras <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="carrera-card" data-category="daca">
+                    <div class="carrera-card-image">
+                        <i class="fa-solid fa-seedling"></i>
+                        <div class="carrera-card-overlay">
+                            <span class="carrera-count">3 carreras</span>
+                        </div>
+                    </div>
+                    <div class="carrera-card-body">
+                        <h3>Agricultura</h3>
+                        <p class="carrera-sub">DACA</p>
+                        <div class="carrera-tags">
+                            <span>Agrícola</span>
+                            <span>Química</span>
+                            <span>Agroindustrial</span>
+                        </div>
+                        <button class="btn-ver-carreras" onclick="mostrarCarreras('DACA', ['Ingeniería Agrícola', 'Ingeniería Química', 'Ingeniería Agroindustrial'])">
+                            Ver carreras <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="carrera-card" data-category="dacac">
+                    <div class="carrera-card-image">
+                        <i class="fa-solid fa-building"></i>
+                        <div class="carrera-card-overlay">
+                            <span class="carrera-count">2 carreras</span>
+                        </div>
+                    </div>
+                    <div class="carrera-card-body">
+                        <h3>Arquitectura y Construcción</h3>
+                        <p class="carrera-sub">DACAC</p>
+                        <div class="carrera-tags">
+                            <span>Arquitectura</span>
+                            <span>Civil</span>
+                        </div>
+                        <button class="btn-ver-carreras" onclick="mostrarCarreras('DACAC', ['Arquitectura', 'Ingeniería Civil'])">
+                            Ver carreras <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="enlaces-section hidden-scroll">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Acceso rápido</span>
+                <h2 class="section-title">Accesos <span class="text-dark-blue">Rápidos</span></h2>
+            </div>
+            <div class="enlaces-grid">
+                <a href="https://www.uni.edu.ni/" target="_blank" class="enlace-card">
+                    <div class="enlace-icon"><i class="fa-solid fa-globe"></i></div>
+                    <h3>Página Oficial</h3>
+                    <p>Información institucional y noticias.</p>
+                    <span class="enlace-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <a href="https://www.facebook.com/UNIdeNicaraguaOficial/" target="_blank" class="enlace-card">
+                    <div class="enlace-icon"><i class="fa-solid fa-users"></i></div>
+                    <h3>Comunidad UNI</h3>
+                    <p>Eventos y actividades universitarias.</p>
+                    <span class="enlace-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <a href="destinos.html" class="enlace-card">
+                    <div class="enlace-icon"><i class="fa-solid fa-map"></i></div>
+                    <h3>Mapa Interactivo</h3>
+                    <p>Explora edificios y ubicaciones.</p>
+                    <span class="enlace-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+                <a href="contactos.html" class="enlace-card">
+                    <div class="enlace-icon"><i class="fa-solid fa-headset"></i></div>
+                    <h3>Soporte</h3>
+                    <p>Contáctanos para más información.</p>
+                    <span class="enlace-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="guia-estudiantil hidden-scroll">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Guía práctica</span>
+                <h2 class="section-title">Guía de <span class="text-dark-blue">Campus</span></h2>
+            </div>
+            <div class="guia-intro">
+                <div class="guia-intro-icon">
+                    <i class="fa-solid fa-school"></i>
+                </div>
+                <h3>Sección: Ambiente UNI</h3>
+                <p>Bienvenido a la Universidad Nacional de Ingeniería.</p>
+                <p>Aunque al inicio pueda parecer un entorno nuevo y desafiante, con el tiempo se convertirá en una de las etapas más significativas de tu vida académica y personal. A continuación, se presentan una serie de recomendaciones orientadas a facilitar tu adaptación y desarrollo dentro de la institución.</p>
+            </div>
+
+            <div class="normas-box">
+                <div class="normas-header">
+                    <i class="fa-solid fa-triangle-exclamation"></i>
+                    <div>
+                        <h3>Normas y Recomendaciones Importantes</h3>
+                        <p class="normas-subtitle">"Cosas que no debes hacer en la UNI"</p>
+                    </div>
+                </div>
+                <p class="normas-desc">A continuación, se presentan una serie de normas y recomendaciones que contribuirán a una mejor convivencia y evitarán inconvenientes dentro del entorno universitario:</p>
+
+                <div class="normas-grid">
+                    <div class="norma-item">
+                        <div class="norma-icon"><i class="fa-solid fa-ban"></i></div>
+                        <h4>Conductas</h4>
+                        <ul>
+                            <li>No fumar dentro de laboratorios ni aulas.</li>
+                            <li>No consumir alimentos en espacios prohibidos.</li>
+                            <li>No grabar en laboratorios sin autorización.</li>
+                            <li>Evitar contenidos inapropiados en clases.</li>
+                        </ul>
+                    </div>
+                    <div class="norma-item">
+                        <div class="norma-icon"><i class="fa-solid fa-book"></i></div>
+                        <h4>Normas académicas</h4>
+                        <ul>
+                            <li>No inscribir más asignaturas de las que puedes manejar.</li>
+                            <li>No subestimar asignaturas fundamentales.</li>
+                            <li>No rendirse ante una asignatura.</li>
+                            <li>Evitar depender de comentarios externos.</li>
+                        </ul>
+                    </div>
+                    <div class="norma-item">
+                        <div class="norma-icon"><i class="fa-solid fa-id-card"></i></div>
+                        <h4>Normas institucionales</h4>
+                        <ul>
+                            <li>Portar siempre el carnet para el ingreso.</li>
+                            <li>No intentar ingresar con identificación ajena.</li>
+                            <li>Cumplir con los reglamentos establecidos.</li>
+                        </ul>
+                    </div>
+                    <div class="norma-item">
+                        <div class="norma-icon"><i class="fa-solid fa-brain"></i></div>
+                        <h4>Hábitos y decisiones</h4>
+                        <ul>
+                            <li>No descuidar la salud mental por exceso de estudio.</li>
+                            <li>No dejarse influenciar por actitudes negativas.</li>
+                            <li>Evitar conductas que generen conflictos.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <section class="recomendaciones-section hidden-scroll" id="favoritos">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-tag">Recomendados</span>
+            <h2 class="section-title">Nuestros <span class="text-dark-blue">Favoritos</span></h2>
+            <p class="section-subtitle">Descubre los spots clave de la comunidad UNI-WAY recomendados por nosotros.</p>
+        </div>
+        <div class="recomendaciones-grid" id="recomendaciones-grid">
+        </div>
+    </div>
+</section>
+</main>
+
+<div class="corner-widget" onclick="window.location.href='destinos.html'">
+    <div class="corner-bubble">Inicia tu recorrido<br><strong>Navegación Activa</strong></div>
+    <div class="corner-svg-container">
+        <svg class="svg-mascot" viewBox="0 0 250 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="bodyGradCorner" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#4da6ff" />
+                    <stop offset="100%" stop-color="#0044cc" />
+                </linearGradient>
+                <linearGradient id="shoeGradCorner" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#3388ff" />
+                    <stop offset="100%" stop-color="#003399" />
+                </linearGradient>
+            </defs>
+            <g class="mascot1-leg-left">
+                <rect x="45" y="140" width="12" height="30" fill="#003399" rx="5" />
+                <path d="M 35 165 C 35 160 65 160 65 165 L 65 175 C 65 180 35 180 35 175 Z" fill="url(#shoeGradCorner)" />
+                <path d="M 35 172 L 65 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-leg-right">
+                <rect x="95" y="140" width="12" height="30" fill="#002277" rx="5" />
+                <path d="M 85 165 C 85 160 115 160 115 165 L 115 175 C 115 180 85 180 85 175 Z" fill="url(#shoeGradCorner)" />
+                <path d="M 85 172 L 115 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-body-group">
+                <rect x="-5" y="80" width="30" height="40" fill="#ffb833" rx="8" />
+                <rect x="2" y="85" width="16" height="15" fill="#ffcc66" rx="4" />
+                <rect x="20" y="50" width="130" height="100" rx="20" fill="url(#bodyGradCorner)" />
+                <path d="M 20 70 L 60 70 L 60 120 L 90 120 L 90 80 L 120 80 L 120 150" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="50" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="52" cy="118" r="1.5" fill="#ffffff" />
+                <circle cx="80" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="82" cy="118" r="1.5" fill="#ffffff" />
+                <path d="M 58 130 Q 65 138 72 130" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" />
+                <g class="mascot1-arm-left">
+                    <path d="M 25 100 Q 10 110 15 125" fill="none" stroke="#4da6ff" stroke-width="10" stroke-linecap="round" />
+                    <circle cx="15" cy="128" r="8" fill="#ffffff" />
+                </g>
+            </g>
+        </svg>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-container container">
+        <div class="footer-info">
+            <h3 class="logo-footer">
+                <img src="https://i.postimg.cc/MZYgXCXD/1781842311259.png" alt="Logo UNI-WAY" class="logo-img">
+                UNI-WAY
+            </h3>
+            <p>Plataforma institucional e interactiva para estudiantes de la Universidad Nacional de Ingeniería.</p>
+        </div>
+        <div class="footer-enlaces">
+            <h4>Enlaces Oficiales</h4>
+            <ul>
+                <li><a href="https://www.uni.edu.ni/" target="_blank">Página Oficial UNI</a></li>
+                <li><a href="destinos.html">Tour de Edificios</a></li>
+                <li><a href="nosotros.html#equipo">Equipo de Desarrollo</a></li>
+            </ul>
+        </div>
+        <div class="footer-contacto">
+            <h4>Contacto</h4>
+            <p><i class="fa-solid fa-envelope"></i> equipo@uniway.edu.ni</p>
+            <p><i class="fa-solid fa-location-dot"></i> Recinto Universitario Simón Bolívar, UNI.</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 UNI-WAY. Desarrollado por estudiantes de Ingeniería en Sistemas.</p>
+    </div>
+</footer>
+
+<div class="modal-overlay" id="videoModal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 id="modalTitle">Cargando Recorrido...</h3>
+            <button class="close-btn" onclick="cerrarSimulacion()">
+                <span class="material-icons">close</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="video-container">
+                <p>
+                    <span class="material-icons" style="font-size: 48px; color: var(--accent-color);">play_circle</span>
+                    <br>
+                    Video 360° / Recorrido
+                </p>
+            </div>
+            <div class="steps-container">
+                <h4>Indicaciones de ruta:</h4>
+                <ol>
+                    <li>Sigue las instrucciones hacia tu destino seleccionado.</li>
+                    <li>¡Has llegado a tu destino!</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal-overlay" id="modalSmart">
+    <div class="modal-content" style="max-width: 550px; max-height: 90vh; overflow-y: auto;">
+        <div class="modal-header">
+            <h3 id="smartTitle">Asistente UNI-WAY</h3>
+            <button class="close-btn" onclick="cerrarModalSmart()">
+                <span class="material-icons">close</span>
+            </button>
+        </div>
+        <div class="modal-body" style="display: block; padding: 25px;" id="smartBody">
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/guia.js"></script>
+</body>
+</html>

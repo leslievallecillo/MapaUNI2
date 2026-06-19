@@ -1,0 +1,38 @@
+[
+  {
+    "id": "fav-chele",
+    "icono": "fastfood",
+    "titulo": "Comedor El Chele",
+    "descripcion": "El comedor más económico entre la comunidad de la UNI, conocido por sus almuerzos completos y accesibles.",
+    "recomendacion": "Ofrece la mejor relación calidad-precio en todo el campus.",
+    "color": "#e67e22",
+    "imagen": "imagenes/Chele.jpeg"
+  },
+  {
+    "id": "fav-copias",
+    "icono": "print",
+    "titulo": "Batidos Miranda",
+    "descripcion": "Batidos hechos al instante y con ingredientes saludables y nutritivos.",
+    "recomendacion": "El servicio es rápido y todo con ingredientes 100% naturales.",
+    "color": "#9b59b6",
+    "imagen": "imagenes/BatidosMiranda.jpeg"
+  },
+  {
+    "id": "fav-biblioteca",
+    "icono": "menu_book",
+    "titulo": "Biblioteca Central",
+    "descripcion": "Instalación principal de recursos literarios y digitales de la universidad, equipada con una segunda planta con área de estudio.",
+    "recomendacion": "El lugar donde puedes obtener señal completamente gratuita.",
+    "color": "#2980b9",
+    "imagen": "imagenes/Biblioteca.jpeg"
+  },
+  {
+    "id": "fav-cajero",
+    "icono": "local_atm",
+    "titulo": "Cajero Automático",
+    "descripcion": "Terminal de autoservicio bancario ubicada en una zona segura dentro del recinto.",
+    "recomendacion": "Lo recomendamos porque siempre es necesario tener efectivo para emergencias o copias de última hora.",
+    "color": "#7f8c8d",
+    "imagen": "imagenes/Cajero.jpeg"
+  }
+]

@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nosotros | UNI-WAY</title>
+<link rel="stylesheet" href="css/nosotros.css">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="loader-wrapper">
+    <div class="loader-content">
+        <svg class="loader-svg" viewBox="0 0 250 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="bodyGradLoader" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#4da6ff" />
+                    <stop offset="100%" stop-color="#0044cc" />
+                </linearGradient>
+                <linearGradient id="shoeGradLoader" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#3388ff" />
+                    <stop offset="100%" stop-color="#003399" />
+                </linearGradient>
+            </defs>
+            <path d="M 10 185 Q 125 195 240 185" fill="none" stroke="#00d2ff" stroke-width="8" stroke-linecap="round" class="loader-path" opacity="0.3" />
+            <g class="mascot1-leg-left">
+                <rect x="45" y="140" width="12" height="30" fill="#003399" rx="5" />
+                <path d="M 35 165 C 35 160 65 160 65 165 L 65 175 C 65 180 35 180 35 175 Z" fill="url(#shoeGradLoader)" />
+                <path d="M 35 172 L 65 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-leg-right">
+                <rect x="95" y="140" width="12" height="30" fill="#002277" rx="5" />
+                <path d="M 85 165 C 85 160 115 160 115 165 L 115 175 C 115 180 85 180 85 175 Z" fill="url(#shoeGradLoader)" />
+                <path d="M 85 172 L 115 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-body-group">
+                <rect x="-5" y="80" width="30" height="40" fill="#ffb833" rx="8" />
+                <rect x="2" y="85" width="16" height="15" fill="#ffcc66" rx="4" />
+                <rect x="20" y="50" width="130" height="100" rx="20" fill="url(#bodyGradLoader)" />
+                <path d="M 20 70 L 60 70 L 60 120 L 90 120 L 90 80 L 120 80 L 120 150" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="50" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="52" cy="118" r="1.5" fill="#ffffff" />
+                <circle cx="80" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="82" cy="118" r="1.5" fill="#ffffff" />
+                <path d="M 58 130 Q 65 138 72 130" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" />
+                <g class="mascot1-arm-left">
+                    <path d="M 25 100 Q 10 110 15 125" fill="none" stroke="#4da6ff" stroke-width="10" stroke-linecap="round" />
+                    <circle cx="15" cy="128" r="8" fill="#ffffff" />
+                    <g transform="translate(-5, 110) rotate(-20)">
+                        <path d="M 0 0 L 25 -5 L 25 15 L 0 20 Z" fill="#ffffff" stroke="#003399" stroke-width="1.5" stroke-linejoin="round" />
+                        <path d="M 8.3 -1.6 L 8.3 18.3 M 16.6 -3.3 L 16.6 16.6" stroke="#003399" stroke-width="1" />
+                        <circle cx="12" cy="8" r="2" fill="#ff3333" />
+                    </g>
+                </g>
+            </g>
+        </svg>
+        <h2 class="loader-text">Cargando...</h2>
+    </div>
+</div>
+
+<header class="navbar" id="navbar">
+    <div class="nav-container">
+        <a href="index.html" class="logo">
+            <img src="https://i.postimg.cc/MZYgXCXD/1781842311259.png" alt="Logo UNI-WAY" class="logo-img">
+            <span>UNI-WAY</span>
+        </a>
+        <nav class="nav-links">
+            <a href="index.html">Inicio</a>
+            <a href="destinos.html">Destinos</a>
+            <a href="guia.html">Guía UNI</a>
+            <a href="nosotros.html" class="active">Nosotros</a>
+            <a href="contactos.html">Contacto</a>
+        </nav>
+        <div class="nav-actions">
+        </div>
+    </div>
+</header>
+
+<main>
+    <section class="hero-nosotros">
+        <div class="hero-content">
+            <h1 class="main-heading">Sobre <span class="text-gradient">Nosotros</span></h1>
+            <p class="hero-description">
+                Conoce al equipo detrás de UNI-WAY, la plataforma que transforma la experiencia de navegación en el campus de la Universidad Nacional de Ingeniería.
+            </p>
+        </div>
+        <div class="hero-shape-divider">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 C300,80 700,0 1200,60 L1200,120 L0,120 Z" fill="#ffffff"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section class="about-section hidden-scroll" id="nosotros">
+        <div class="about-container">
+            <div class="section-header">
+                <span class="section-tag">Quiénes somos</span>
+                <h2 class="section-title">Nuestra <span class="text-dark-blue">Historia</span></h2>
+            </div>
+            
+            <div class="about-main">
+                <div class="about-image">
+                    <img src="imagenes/logo.jpeg" alt="UNI Campus" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x400/0f2b6b/ffffff?text=UNI-Campus';">
+                </div>
+                
+                <div class="about-history">
+                    <h3><i class="fa-solid fa-landmark"></i> Nuestra Historia</h3>
+                    <p>El proyecto UNI-WAY nació de una experiencia común: la desorientación que todos sentimos en nuestro primer año de clases. La universidad es un campus inmenso y complejo, y perderse es parte del ritual de iniciación.</p>
+                    <p>Utilizando entornos virtuales y herramientas de frontend modernas, hemos creado recorridos visuales en primera persona para que te enfoques en aprender desde el día uno, no en buscar aulas. Hecho de estudiantes, para estudiantes.</p>
+                </div>
+            </div>
+
+            <div class="about-cards">
+                <div class="mv-card">
+                    <div class="mv-icon"><i class="fa-solid fa-flag"></i></div>
+                    <h3>Misión</h3>
+                    <p>Facilitar la integración, orientación y movilidad de la comunidad estudiantil dentro del recinto universitario mediante herramientas interactivas, garantizando una experiencia fluida y sin contratiempos durante sus primeros pasos en la universidad.</p>
+                    <div class="mv-card-glow"></div>
+                </div>
+                
+                <div class="mv-card">
+                    <div class="mv-icon"><i class="fa-solid fa-eye"></i></div>
+                    <h3>Visión</h3>
+                    <p>Convertirnos en la plataforma de navegación universitaria líder y el referente principal para la comunidad de la Universidad Nacional de Ingeniería, promoviendo un entorno cada vez más accesible, tecnológico e integrado.</p>
+                    <div class="mv-card-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="equipo-section hidden-scroll" id="equipo">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">El equipo</span>
+                <h2 class="section-title">Nuestro <span class="text-dark-blue">Equipo Creador</span></h2>
+                <p class="section-subtitle">Desarrollado por un equipo de estudiantes de Ingeniería de Sistemas apasionados por la tecnología.</p>
+            </div>
+            
+            <div id="react-equipo-root"></div>
+        </div>
+    </section>
+</main>
+
+<div class="corner-widget" onclick="window.location.href='destinos.html'">
+    <div class="corner-bubble">Inicia tu recorrido<br><strong>Navegación Activa</strong></div>
+    <div class="corner-svg-container">
+        <svg class="svg-mascot" viewBox="0 0 250 200" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="bodyGradCorner" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stop-color="#4da6ff" />
+                    <stop offset="100%" stop-color="#0044cc" />
+                </linearGradient>
+                <linearGradient id="shoeGradCorner" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stop-color="#3388ff" />
+                    <stop offset="100%" stop-color="#003399" />
+                </linearGradient>
+            </defs>
+            <g class="mascot1-leg-left">
+                <rect x="45" y="140" width="12" height="30" fill="#003399" rx="5" />
+                <path d="M 35 165 C 35 160 65 160 65 165 L 65 175 C 65 180 35 180 35 175 Z" fill="url(#shoeGradCorner)" />
+                <path d="M 35 172 L 65 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-leg-right">
+                <rect x="95" y="140" width="12" height="30" fill="#002277" rx="5" />
+                <path d="M 85 165 C 85 160 115 160 115 165 L 115 175 C 115 180 85 180 85 175 Z" fill="url(#shoeGradCorner)" />
+                <path d="M 85 172 L 115 172" stroke="#ffffff" stroke-width="3" />
+            </g>
+            <g class="mascot1-body-group">
+                <rect x="-5" y="80" width="30" height="40" fill="#ffb833" rx="8" />
+                <rect x="2" y="85" width="16" height="15" fill="#ffcc66" rx="4" />
+                <rect x="20" y="50" width="130" height="100" rx="20" fill="url(#bodyGradCorner)" />
+                <path d="M 20 70 L 60 70 L 60 120 L 90 120 L 90 80 L 120 80 L 120 150" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" />
+                <circle cx="50" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="52" cy="118" r="1.5" fill="#ffffff" />
+                <circle cx="80" cy="120" r="5" fill="#1a1a1a" />
+                <circle cx="82" cy="118" r="1.5" fill="#ffffff" />
+                <path d="M 58 130 Q 65 138 72 130" fill="none" stroke="#1a1a1a" stroke-width="3" stroke-linecap="round" />
+                <g class="mascot1-arm-left">
+                    <path d="M 25 100 Q 10 110 15 125" fill="none" stroke="#4da6ff" stroke-width="10" stroke-linecap="round" />
+                    <circle cx="15" cy="128" r="8" fill="#ffffff" />
+                </g>
+            </g>
+        </svg>
+    </div>
+</div>
+
+<footer class="footer">
+    <div class="footer-container container">
+        <div class="footer-info">
+            <h3 class="logo-footer">
+                <img src="https://i.postimg.cc/MZYgXCXD/1781842311259.png" alt="Logo UNI-WAY" class="logo-img">
+                UNI-WAY
+            </h3>
+            <p>Tu guía interactiva para dominar el campus de la Universidad Nacional de Ingeniería.</p>
+        </div>
+        <div class="footer-enlaces">
+            <h4>Enlaces Rápidos</h4>
+            <ul>
+                <li><a href="#nosotros">Misión y Visión</a></li>
+                <li><a href="destinos.html">Tour de Edificios</a></li>
+                <li><a href="#equipo">Desarrolladores</a></li>
+            </ul>
+        </div>
+        <div class="footer-contacto">
+            <h4>Contacto</h4>
+            <p><i class="fa-solid fa-envelope"></i> equipo@uniway.edu.ni</p>
+            <p><i class="fa-solid fa-location-dot"></i> Recinto Universitario Simón Bolívar, UNI.</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>© 2026 UNI-WAY. Desarrollado por estudiantes de Ingeniería de Sistemas. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
+<script type="text/babel" src="Components/nosotros.jsx"></script>
+<script src="js/nosotros.js"></script>
+</body>
+</html>

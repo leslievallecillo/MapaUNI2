@@ -1,0 +1,207 @@
+{
+  "categorias": {
+    "principales": [
+      { "id": "rigoberto", "nombre": "Edificio Rigoberto López Pérez", "desc": "Complejo principal con aulas y laboratorios de computación.", "img": "https://i.postimg.cc/CKnJ4wJg/IMG-20260428-142110.jpg", "tipo": "complejo", "media": "https://i.postimg.cc/CKnJ4wJg/IMG-20260428-142110.jpg", "tipoMedia": "imagen" },
+      { "id": "ies", "nombre": "Edificio IES", "desc": "Edificio correspondiente a la carrera de Ingeniería de Sistemas.", "img": "imagenes/edificioies.jpeg", "tipo": "estandar", "media": "imagenes/edificioies.jpeg", "tipoMedia": "imagen" },
+      { "id": "pabellon1_ies", "nombre": "Pabellón 1 IES", "desc": "Bloque de aulas del IES.", "img": "https://i.postimg.cc/MGLNWs3f/IMG-20260428-WA0355.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/MGLNWs3f/IMG-20260428-WA0355.jpg", "tipoMedia": "imagen" },
+      { "id": "pabellon2_ies", "nombre": "Pabellón 2 IES", "desc": "Bloque de aulas del IES.", "img": "https://i.postimg.cc/xTGwK3qV/IMG-20260428-WA0419.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/xTGwK3qV/IMG-20260428-WA0419.jpg", "tipoMedia": "imagen" },
+      { "id": "pabellon3_ies", "nombre": "Pabellón 3 IES", "desc": "Bloque de aulas del IES.", "img": "https://i.postimg.cc/ZKPGrxnD/IMG-20260428-WA0421.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/ZKPGrxnD/IMG-20260428-WA0421.jpg", "tipoMedia": "imagen" },
+      { "id": "quimica", "nombre": "Edificio Química", "desc": "Laboratorios y aulas teóricas de la facultad química.", "img": "imagenes/edificioquimica.jpeg", "tipo": "estandar", "media": "imagenes/edificioquimica.jpeg", "tipoMedia": "imagen" },
+      { "id": "arquitectura", "nombre": "Edificio Arquitectura", "desc": "Laboratorios y aulas teóricas.", "img": "imagenes/edificioarquitectura.jpeg", "tipo": "estandar", "media": "imagenes/edificioarquitectura.jpeg", "tipoMedia": "imagen" },
+      { "id": "edif_einstein", "nombre": "Edificio Albert Einstein", "desc": "Aulas teóricas y salones de clase.", "img": "https://i.postimg.cc/FH92GkkM/IMG-20260428-WA0414.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/FH92GkkM/IMG-20260428-WA0414.jpg", "tipoMedia": "imagen" },
+      { "id": "berroteran", "nombre": "Edificio Ing. Carlos Santos Berroteran", "desc": "Oficinas para personal administrativo y maestros", "img": "https://i.postimg.cc/R0YyMPp7/IMG-20260428-WA0347.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/R0YyMPp7/IMG-20260428-WA0347.jpg", "tipoMedia": "imagen" },
+      { "id": "posgrado", "nombre": "Departamento de Posgrado", "desc": "Dirección de posgrados y maestrías de la universidad.", "img": "https://i.postimg.cc/sXZ81pbZ/IMG-20260428-WA0348.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/sXZ81pbZ/IMG-20260428-WA0348.jpg", "tipoMedia": "imagen" },
+      { "id": "dti", "nombre": "División de Tecnología de la Información (DTI)", "desc": "Oficinas centrales de la división tecnológica.", "img": "https://i.postimg.cc/QdtfHQTJ/IMG-20260428-142949.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/QdtfHQTJ/IMG-20260428-142949.jpg", "tipoMedia": "imagen" },
+      { "id": "director_dti", "nombre": "Oficina Director DTI", "desc": "Dirección y administración de la división DTI.", "img": "https://i.postimg.cc/Gm5qY4Ff/IMG-20260428-142941.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/Gm5qY4Ff/IMG-20260428-142941.jpg", "tipoMedia": "imagen" },
+      { "id": "registro", "nombre": "Departamento de Registro Académico", "desc": "En este departamento se encuentra secretaria academica para cada carrera y Caja", "img": "imagenes/RegistroAcademico.jpeg", "tipo": "estandar", "media": "imagenes/RegistroAcademico.jpeg", "tipoMedia": "imagen" },
+      { "id": "servicios_adm", "nombre": "Oficina Servicios Administrativos", "desc": "Gestión interna y servicios para el campus.", "img": "https://i.postimg.cc/Jnbq9Kf1/IMG-20260428-140107.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/Jnbq9Kf1/IMG-20260428-140107.jpg", "tipoMedia": "imagen" },
+      { "id": "dept_investigacion", "nombre": "Departamento de Investigación", "desc": "Coordinación de investigaciones universitarias.", "img": "https://i.postimg.cc/0jPfxDvN/IMG-20260428-135728.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/0jPfxDvN/IMG-20260428-135728.jpg", "tipoMedia": "imagen" },
+      { "id": "dept_diseno_const", "nombre": "Dpto. Diseño y Construcción", "desc": "Oficinas de planificación de infraestructura.", "img": "https://i.postimg.cc/BbpCvbQG/IMG-20260428-133323.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/BbpCvbQG/IMG-20260428-133323.jpg", "tipoMedia": "imagen" },
+      { "id": "coord_posgrado", "nombre": "Coordinación de Posgrado", "desc": "Administración de programas de especialización.", "img": "https://i.postimg.cc/DfGkzTTV/IMG-20260428-WA0440.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/DfGkzTTV/IMG-20260428-WA0440.jpg", "tipoMedia": "imagen" },
+      { "id": "dept_becas", "nombre": "Departamento de Becas", "desc": "Gestión de aranceles y ayudas estudiantiles.", "img": "https://i.postimg.cc/JzPSF7bS/IMG-20260428-WA0392.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/JzPSF7bS/IMG-20260428-WA0392.jpg", "tipoMedia": "imagen" },
+      { "id": "unen", "nombre": "Oficinas de UNEN-ANECYS", "desc": "Oficina de miembros de la UNEN", "img": "https://i.postimg.cc/VkD2hsjG/IMG-20260428-WA0395.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/VkD2hsjG/IMG-20260428-WA0395.jpg", "tipoMedia": "imagen" },
+      { "id": "stuni", "nombre": "Sindicato de Trabajadores (STUNI)", "desc": "Oficinas sindicales del personal.", "img": "https://i.postimg.cc/j2tXKPTc/IMG-20260428-134808.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/j2tXKPTc/IMG-20260428-134808.jpg", "tipoMedia": "imagen" },
+      { "id": "ofic_prof_dactic", "nombre": "Oficina Profesores DACTIC", "desc": "Área para docentes del DACTIC.", "img": "https://i.postimg.cc/wxN8Bppx/IMG-20260428-WA0438.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/wxN8Bppx/IMG-20260428-WA0438.jpg", "tipoMedia": "imagen" },
+      { "id": "programa_ambiente", "nombre": "Programa de Investigación (PIENSA)", "desc": "Estudios ambientales y de desarrollo.", "img": "https://i.postimg.cc/tTh5LDK9/IMG-20260428-140049.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/tTh5LDK9/IMG-20260428-140049.jpg", "tipoMedia": "imagen" },
+      { "id": "prog_habilidades", "nombre": "Programa de Habilidades y Territorio", "desc": "Estudios integrales universitarios.", "img": "https://i.postimg.cc/Qx6bGFyB/IMG-20260428-132932.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/Qx6bGFyB/IMG-20260428-132932.jpg", "tipoMedia": "imagen" },
+      { "id": "auditorio_salomon", "nombre": "Auditorio Salomón de la Selva", "desc": "Auditorio para eventos o conferencias.", "img": "https://i.postimg.cc/XYVTxBy5/IMG-20260428-WA0405.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/XYVTxBy5/IMG-20260428-WA0405.jpg", "tipoMedia": "imagen" },
+      { "id": "sala_ruben_dario", "nombre": "Sala Rubén Darío", "desc": "Salón de lectura y exposiciones.", "img": "https://i.postimg.cc/qvk9Q6Ct/IMG-20260428-WA0406.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/qvk9Q6Ct/IMG-20260428-WA0406.jpg", "tipoMedia": "imagen" },
+      { "id": "sala_reuniones", "nombre": "Sala de Reuniones", "desc": "Espacio para conferencias y sesiones administrativas.", "img": "https://i.postimg.cc/VsWggG97/IMG-20260428-133255.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/VsWggG97/IMG-20260428-133255.jpg", "tipoMedia": "imagen" },
+      { "id": "salon_prokaizen", "nombre": "Salón Prokaizen", "desc": "Espacio de capacitación y mejora continua.", "img": "https://i.postimg.cc/13JbdRp8/IMG-20260428-WA0396.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/13JbdRp8/IMG-20260428-WA0396.jpg", "tipoMedia": "imagen" },
+      { "id": "teatro_uni", "nombre": "Grupo de Teatro UNI", "desc": "Espacio de prácticas teatrales y culturales.", "img": "https://i.postimg.cc/MZm55P0D/IMG-20260428-133239.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/MZm55P0D/IMG-20260428-133239.jpg", "tipoMedia": "imagen" },
+      { "id": "clinica_rusb", "nombre": "Clínica Médica RUSB", "desc": "Atención de salud para la comunidad universitaria.", "img": "https://i.postimg.cc/5yb31LJY/IMG-20260428-134815.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/5yb31LJY/IMG-20260428-134815.jpg", "tipoMedia": "imagen" },
+      { "id": "fisioterapia_psico", "nombre": "Fisioterapia y Psicología", "desc": "Atención especializada para estudiantes.", "img": "https://i.postimg.cc/vThvmT8q/IMG-20260428-133640.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/vThvmT8q/IMG-20260428-133640.jpg", "tipoMedia": "imagen" },
+      { "id": "canchas_uni", "nombre": "Canchas UNI", "desc": "Instalaciones deportivas del recinto.", "img": "https://i.postimg.cc/TPsFRkNy/IMG-20260428-WA0357.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/TPsFRkNy/IMG-20260428-WA0357.jpg", "tipoMedia": "imagen" },
+      { "id": "piscina_uni", "nombre": "Piscina UNI", "desc": "Complejo acuático deportivo.", "img": "https://i.postimg.cc/PxkbzYPK/IMG-20260428-132830.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/PxkbzYPK/IMG-20260428-132830.jpg", "tipoMedia": "imagen" },
+      { "id": "taekwondo", "nombre": "Salón Taekwondo", "desc": "Área de prácticas deportivas de artes marciales.", "img": "https://i.postimg.cc/RV1kcLhg/IMG-20260428-WA0423.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/RV1kcLhg/IMG-20260428-WA0423.jpg", "tipoMedia": "imagen" },
+      { "id": "biblioteca", "nombre": "Biblioteca", "desc": "Biblioteca central de la universidad.", "img": "https://i.postimg.cc/0N4F8tXf/IMG-20260428-WA0343.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/0N4F8tXf/IMG-20260428-WA0343.jpg", "tipoMedia": "imagen" },
+      { "id": "estatua_bolivar", "nombre": "Estatua Simón Bolívar", "desc": "Monumento central del recinto.", "img": "https://i.postimg.cc/nct8jPF2/IMG-20260428-WA0427.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/nct8jPF2/IMG-20260428-WA0427.jpg", "tipoMedia": "imagen" },
+      { "id": "parqueo_rig", "nombre": "Parqueo Edificio Rigoberto", "desc": "Estacionamiento principal frente al Rigoberto.", "img": "https://i.postimg.cc/Nfwh9zsd/IMG-20260428-WA0430.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/Nfwh9zsd/IMG-20260428-WA0430.jpg", "tipoMedia": "imagen" },
+      { "id": "parqueo_ies", "nombre": "Parqueo IES", "desc": "Estacionamiento aledaño al IES.", "img": "https://i.postimg.cc/SNp02vS1/IMG-20260428-WA0424.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/SNp02vS1/IMG-20260428-WA0424.jpg", "tipoMedia": "imagen" },
+      { "id": "pasillo_1", "nombre": "Pasillo Principal 1", "desc": "Tránsito principal entre edificios.", "img": "https://i.postimg.cc/jSZB1qzH/IMG-20260428-WA0402.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/jSZB1qzH/IMG-20260428-WA0402.jpg", "tipoMedia": "imagen" },
+      { "id": "vivero", "nombre": "Vivero UNI", "desc": "Área verde y conservación de plantas.", "img": "https://i.postimg.cc/pdr3MNCH/IMG-20260428-WA0380.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/pdr3MNCH/IMG-20260428-WA0380.jpg", "tipoMedia": "imagen" },
+      { "id": "bodega_rusb", "nombre": "Bodega RUSB", "desc": "Almacén general del recinto.", "img": "https://i.postimg.cc/VvmR1nw5/IMG-20260428-135634.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/VvmR1nw5/IMG-20260428-135634.jpg", "tipoMedia": "imagen" },
+      { "id": "dept_cultura", "nombre": "Departamento de Cultura", "desc": "Promoción y gestión de actividades culturales.", "img": "https://i.postimg.cc/Ss1ZzFRM/IMG-20260612-WA0040.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/Ss1ZzFRM/IMG-20260612-WA0040.jpg", "tipoMedia": "imagen" },
+      { "id": "libreria_uni", "nombre": "Librería UNI", "desc": "Venta de libros, papelería y artículos universitarios.", "img": "https://i.postimg.cc/q7LD4CTH/IMG-20260612-WA0042.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/q7LD4CTH/IMG-20260612-WA0042.jpg", "tipoMedia": "imagen" }
+    ],
+    "laboratorios": [
+      { "id": "lab_computo", "nombre": "Laboratorio de Cómputo", "desc": "Salas de computación.", "img": "https://i.postimg.cc/Bvg74104/IMG-20260612-WA0043.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/Bvg74104/IMG-20260612-WA0043.jpg", "tipoMedia": "imagen" },
+      { "id": "lab_leyda", "nombre": "Laboratorio Leyda", "desc": "Salas de computación principales para estudiantes de sistemas.", "img": "https://i.postimg.cc/bvTVp2j1/IMG-20260612-WA0045.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/bvTVp2j1/IMG-20260612-WA0045.jpg", "tipoMedia": "imagen" },
+      { "id": "lab_control", "nombre": "Laboratorio de Control", "desc": "Salas de computación principales para estudiantes de sistemas.", "img": "https://i.postimg.cc/SRwDD6WS/IMG-20260612-WA0034.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/SRwDD6WS/IMG-20260612-WA0034.jpg", "tipoMedia": "imagen" },
+      { "id": "lab_control_finanzas", "nombre": "Laboratorio de Control (Edif. Finanzas)", "desc": "Prácticas de automatización.", "img": "https://i.postimg.cc/63d0DzDb/IMG-20260428-140324.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/63d0DzDb/IMG-20260428-140324.jpg", "tipoMedia": "imagen" },
+      { "id": "lab_robotica", "nombre": "Laboratorios Robótica (Sótano)", "desc": "Equipos especializados para proyectos de hardware y electrónica.", "img": "imagenes/lab_robotica.jpeg", "tipo": "estandar", "media": "imagenes/lab_robotica.mp4", "tipoMedia": "video" },
+      { "id": "lab_redes", "nombre": "Laboratorio Redes", "desc": "Prácticas de configuración de servidores y telecomunicaciones.", "img": "https://i.postimg.cc/d0BNwTKm/IMG-20260612-WA0046.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/d0BNwTKm/IMG-20260612-WA0046.jpg", "tipoMedia": "imagen" },
+      { "id": "lab_digital", "nombre": "Laboratorio Electronica Digital", "desc": "Equipo exclusivo para estudiantes y maestros.", "img": "imagenes/Lab_ElectronicaDigital.jpeg", "tipo": "estandar", "media": "imagenes/Lab_ElectronicaDigital.jpeg", "tipoMedia": "imagen" },
+      { "id": "lab_analogica", "nombre": "Laboratorio de Electronica Analogica", "desc": "Salas de computación principales para estudiantes de sistemas.", "img": "imagenes/Lab_ElectronicaAnalogica.jpeg", "tipo": "estandar", "media": "imagenes/Lab_ElectronicaAnalogica.jpeg", "tipoMedia": "imagen" },
+      { "id": "lab_circuitos", "nombre": "Laboratorio Circuitos Electricos", "desc": "Practicas de Arduinos y circuitos.", "img": "imagenes/Lab_CircuitosElectricos.jpeg", "tipo": "estandar", "media": "imagenes/Lab_CircuitosElectricos.jpeg", "tipoMedia": "imagen" },
+      { "id": "lab_circuitos_quimica", "nombre": "Laboratorio de Circuitos Eléctricos (Química)", "desc": "Prácticas de electrónica.", "img": "https://i.postimg.cc/B6cThbFf/IMG-20260428-132313.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/B6cThbFf/IMG-20260428-132313.jpg", "tipoMedia": "imagen" },
+      { "id": "lab_arduino_quimica", "nombre": "Laboratorio Arduino (Edif. Química)", "desc": "Prácticas de microcontroladores.", "img": "https://i.postimg.cc/85BRyc60/IMG-20260428-132345.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/85BRyc60/IMG-20260428-132345.jpg", "tipoMedia": "imagen" },
+      { "id": "lab_ambiental", "nombre": "Laboratorio Ambiental", "desc": "Equipo unicamente para estudiantes y docentes.", "img": "imagenes/Lab_Ambientales.jpeg", "tipo": "estandar", "media": "imagenes/Lab_Ambientales.jpeg", "tipoMedia": "imagen" },
+      { "id": "lab_ambientales_piensa", "nombre": "Laboratorios Ambientales PIENSA", "desc": "Estudios e investigaciones ecológicas.", "img": "https://i.postimg.cc/KjxNFBb8/IMG-20260428-135854.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/KjxNFBb8/IMG-20260428-135854.jpg", "tipoMedia": "imagen" },
+      { "id": "lab_alimentos", "nombre": "Laboratorio de Alimentos", "desc": "Equipo unicamente para estudiantes y docentes.", "img": "imagenes/Lab_Alimentos.jpeg", "tipo": "estandar", "media": "imagenes/Lab_Alimentos.jpeg", "tipoMedia": "imagen" }
+    ],
+    "cafetines": [
+      { "id": "caf_uni", "nombre": "Cafetería UNI", "desc": "Comedor general universitario.", "img": "https://i.postimg.cc/RZNTMvkR/IMG-20260428-132904.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/RZNTMvkR/IMG-20260428-132904.jpg", "tipoMedia": "imagen" },
+      { "id": "caf_gueguense", "nombre": "Cafetín El Güegüense", "desc": "Comida casera y ejecutiva.", "img": "https://i.postimg.cc/TYjzrJhf/IMG-20260428-WA0416.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/TYjzrJhf/IMG-20260428-WA0416.jpg", "tipoMedia": "imagen" },
+      { "id": "caf_el_comal", "nombre": "Cafetería El Comal", "desc": "Especialidad en enchiladas y platos típicos.", "img": "https://i.postimg.cc/FH7x9hMJ/IMG-20260428-133004.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/FH7x9hMJ/IMG-20260428-133004.jpg", "tipoMedia": "imagen" },
+      { "id": "caf_la_mita", "nombre": "Cafetín La Mita", "desc": "Especialidad en Nachos y repostería.", "img": "https://i.postimg.cc/VvmR1nwM/IMG-20260428-134900.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/VvmR1nwM/IMG-20260428-134900.jpg", "tipoMedia": "imagen" },
+      { "id": "caf_la_argentina", "nombre": "Cafetín La Argentina", "desc": "Variedad de almuerzos y refrescos.", "img": "https://i.postimg.cc/fT7Gxfkn/IMG-20260428-WA0420.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/fT7Gxfkn/IMG-20260428-WA0420.jpg", "tipoMedia": "imagen" },
+      { "id": "caf_el_duarte", "nombre": "Cafetín El Duarte", "desc": "Desayunos tradicionales y café.", "img": "https://i.postimg.cc/6qchQq6m/IMG-20260428-133724.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/6qchQq6m/IMG-20260428-133724.jpg", "tipoMedia": "imagen" },
+      { "id": "caf_kafe", "nombre": "Cafetín Kafe", "desc": "Especialidad en comida rápida.", "img": "https://i.postimg.cc/cChcJC1M/IMG-20260428-133744.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/cChcJC1M/IMG-20260428-133744.jpg", "tipoMedia": "imagen" },
+      { "id": "caf_king", "nombre": "Cafetín King", "desc": "Comida rápida y bocadillos.", "img": "https://i.postimg.cc/GhPWkx9c/IMG-20260428-WA0417.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/GhPWkx9c/IMG-20260428-WA0417.jpg", "tipoMedia": "imagen" },
+      { "id": "caf_el_chele", "nombre": "Cafetín El Chele", "desc": "Snacks, jugos y almuerzos rápidos.", "img": "https://i.postimg.cc/kGqc9KCc/IMG-20260428-133847.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/kGqc9KCc/IMG-20260428-133847.jpg", "tipoMedia": "imagen" },
+      { "id": "caf_x", "nombre": "Cafetería X", "desc": "Especialidad en Hamburguesas, jugos y snacks", "img": "imagenes/cafetinX.jpeg", "tipo": "estandar", "media": "imagenes/cafetinX.jpeg", "tipoMedia": "imagen" },
+      { "id": "caf_deportivo", "nombre": "Cafetería El Deportivo", "desc": "Especialidad en almuerzos, pizza", "img": "imagenes/deportivo.jpeg", "tipo": "estandar", "media": "imagenes/deportivo.jpeg", "tipoMedia": "imagen" },
+      { "id": "caf_fritanga", "nombre": "Cafetería La Fritanga", "desc": "La auténtica comida nicaragüense asada disponible a toda hora.", "img": "https://i.postimg.cc/qRvbRMkS/IMG-20260612-WA0041.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/qRvbRMkS/IMG-20260612-WA0041.jpg", "tipoMedia": "imagen" },
+      { "id": "caf_fuzion", "nombre": "Cafetería Fuzion", "desc": "Especialidad en helados, postres y almuerzos", "img": "https://i.postimg.cc/KjK0Pq39/IMG-20260612-WA0037.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/KjK0Pq39/IMG-20260612-WA0037.jpg", "tipoMedia": "imagen" },
+      { "id": "caf_kyoto", "nombre": "Cafetería Kyoto", "desc": "Especialidad en snacks y jugos", "img": "imagenes/Kyoto.jpeg", "tipo": "estandar", "media": "imagenes/Kyoto.jpeg", "tipoMedia": "imagen" },
+      { "id": "batidos_miranda", "nombre": "Batidos Miranda", "desc": "Refrescos naturales y batidos.", "img": "https://i.postimg.cc/hP8k91vY/IMG-20260428-WA0418.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/hP8k91vY/IMG-20260428-WA0418.jpg", "tipoMedia": "imagen" },
+      { "id": "copias_marin", "nombre": "Copias Marín", "desc": "Centro de impresión y útiles escolares.", "img": "https://i.postimg.cc/tT0kS8mw/IMG-20260428-141332.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/tT0kS8mw/IMG-20260428-141332.jpg", "tipoMedia": "imagen" },
+      { "id": "centro_copias", "nombre": "Centro de Copias", "desc": "Impresiones y fotocopias.", "img": "https://i.postimg.cc/gkMDFxTb/IMG-20260428-133209.jpg", "tipo": "estandar", "media": "https://i.postimg.cc/gkMDFxTb/IMG-20260428-133209.jpg", "tipoMedia": "imagen" }
+    ]
+  },
+  "detallesEdificios": {
+    "rigoberto": {
+      "pisos": [
+        { "id": "p1", "label": "Piso 1" },
+        { "id": "p2", "label": "Piso 2" },
+        { "id": "p3", "label": "Piso 3" },
+        { "id": "p4", "label": "Piso 4" },
+        { "id": "p5", "label": "Piso 5" },
+        { "id": "s1", "label": "Sótano" }
+      ],
+      "aulas": {
+        "p1": {
+          "A": [
+            { "id": "A_I", "nombre": "Aula A-I", "img": "https://i.postimg.cc/J05pBKxF/IMG-20260428-143929.jpg", "media": "https://i.postimg.cc/J05pBKxF/IMG-20260428-143929.jpg", "tipoMedia": "imagen" },
+            { "id": "A_I_1", "nombre": "Aula A-I-1", "img": "https://i.postimg.cc/9Xd8SF2f/IMG-20260428-143940.jpg", "media": "https://i.postimg.cc/9Xd8SF2f/IMG-20260428-143940.jpg", "tipoMedia": "imagen" },
+            { "id": "A_I_2", "nombre": "Aula A-I-2", "img": "https://i.postimg.cc/kGvTtwsx/IMG-20260428-143946.jpg", "media": "https://i.postimg.cc/kGvTtwsx/IMG-20260428-143946.jpg", "tipoMedia": "imagen" },
+            { "id": "A_I_3", "nombre": "Aula A-I-3", "img": "https://i.postimg.cc/y6mQ5YK0/IMG-20260428-143823.jpg", "media": "https://i.postimg.cc/y6mQ5YK0/IMG-20260428-143823.jpg", "tipoMedia": "imagen" },
+            { "id": "A_I_4", "nombre": "Aula A-I-4", "img": "https://i.postimg.cc/wxXfPTzt/IMG-20260428-143835.jpg", "media": "https://i.postimg.cc/wxXfPTzt/IMG-20260428-143835.jpg", "tipoMedia": "imagen" },
+            { "id": "A_I_5", "nombre": "Aula A-I-5", "img": "https://i.postimg.cc/y6mQ5YKS/IMG-20260428-143848.jpg", "media": "https://i.postimg.cc/y6mQ5YKS/IMG-20260428-143848.jpg", "tipoMedia": "imagen" },
+            { "id": "A_I_6", "nombre": "Aula A-I-6", "img": "https://i.postimg.cc/GtxXszKQ/IMG-20260428-143900.jpg", "media": "https://i.postimg.cc/GtxXszKQ/IMG-20260428-143900.jpg", "tipoMedia": "imagen" },
+            { "id": "10_10", "nombre": "Aula 10-10", "img": "https://i.postimg.cc/G3N7LC65/IMG-20260612-WA0032.jpg", "media": "https://i.postimg.cc/G3N7LC65/IMG-20260612-WA0032.jpg", "tipoMedia": "imagen" },
+            { "id": "10_20", "nombre": "Aula 10-20", "img": "https://i.postimg.cc/T1ZCCVrj/IMG-20260612-WA0033.jpg", "media": "https://i.postimg.cc/T1ZCCVrj/IMG-20260612-WA0033.jpg", "tipoMedia": "imagen" },
+            { "id": "10_30", "nombre": "Aula 10-30", "img": "https://i.postimg.cc/63scjF12/IMG-20260428-141419.jpg", "media": "https://i.postimg.cc/63scjF12/IMG-20260428-141419.jpg", "tipoMedia": "imagen" },
+            { "id": "10_40", "nombre": "Aula 10-40", "img": "https://i.postimg.cc/q76QGpQs/IMG-20260428-141410.jpg", "media": "https://i.postimg.cc/q76QGpQs/IMG-20260428-141410.jpg", "tipoMedia": "imagen" },
+            { "id": "10_70", "nombre": "Aula 10-70", "img": "https://i.postimg.cc/4yP13yNg/IMG-20260428-133556.jpg", "media": "https://i.postimg.cc/4yP13yNg/IMG-20260428-133556.jpg", "tipoMedia": "imagen" },
+            { "id": "LAB_1010", "nombre": "Laboratorio 1010", "img": "https://i.postimg.cc/FHS25Rzt/IMG-20260612-WA0058.jpg", "media": "https://i.postimg.cc/FHS25Rzt/IMG-20260612-WA0058.jpg", "tipoMedia": "imagen" },
+            { "id": "LAB_1020", "nombre": "Laboratorio 1020", "img": "https://i.postimg.cc/P5DBsxxg/IMG-20260612-WA0056.jpg", "media": "https://i.postimg.cc/P5DBsxxg/IMG-20260612-WA0056.jpg", "tipoMedia": "imagen" },
+            { "id": "LAB_1030", "nombre": "Laboratorio 1030", "img": "https://i.postimg.cc/sg50HN60/IMG-20260612-WA0054.jpg", "media": "https://i.postimg.cc/sg50HN60/IMG-20260612-WA0054.jpg", "tipoMedia": "imagen" },
+            { "id": "LAB_1040", "nombre": "Laboratorio 1040", "img": "https://i.postimg.cc/13DY7jCW/IMG-20260612-WA0052.jpg", "media": "https://i.postimg.cc/13DY7jCW/IMG-20260612-WA0052.jpg", "tipoMedia": "imagen" },
+            { "id": "LAB_1050", "nombre": "Laboratorio 1050", "img": "https://i.postimg.cc/jSyk3F3q/IMG-20260612-WA0050.jpg", "media": "https://i.postimg.cc/jSyk3F3q/IMG-20260612-WA0050.jpg", "tipoMedia": "imagen" },
+            { "id": "LAB_1060", "nombre": "Laboratorio 1060", "img": "https://i.postimg.cc/y80rpbpY/IMG-20260612-WA0049.jpg", "media": "https://i.postimg.cc/y80rpbpY/IMG-20260612-WA0049.jpg", "tipoMedia": "imagen" }
+          ],
+          "B": [
+            { "id": "B_I", "nombre": "Aula B-I", "img": "https://i.postimg.cc/RFfsvvHx/IMG-20260428-144136.jpg", "media": "https://i.postimg.cc/RFfsvvHx/IMG-20260428-144136.jpg", "tipoMedia": "imagen" },
+            { "id": "B_I_1", "nombre": "Aula B-I-1", "img": "https://i.postimg.cc/B6DYJJKS/IMG-20260428-144130.jpg", "media": "https://i.postimg.cc/B6DYJJKS/IMG-20260428-144130.jpg", "tipoMedia": "imagen" },
+            { "id": "B_I_2", "nombre": "Aula B-I-2", "img": "https://i.postimg.cc/d1dHJJyw/IMG-20260428-144117.jpg", "media": "https://i.postimg.cc/d1dHJJyw/IMG-20260428-144117.jpg", "tipoMedia": "imagen" },
+            { "id": "B_I_3", "nombre": "Aula B-I-3", "img": "https://i.postimg.cc/Y0HX9T69/IMG-20260428-144057.jpg", "media": "https://i.postimg.cc/Y0HX9T69/IMG-20260428-144057.jpg", "tipoMedia": "imagen" },
+            { "id": "B_I_4", "nombre": "Aula B-I-4", "img": "https://i.postimg.cc/C5gv19Gg/IMG-20260428-144050.jpg", "media": "https://i.postimg.cc/C5gv19Gg/IMG-20260428-144050.jpg", "tipoMedia": "imagen" },
+            { "id": "B_I_5", "nombre": "Aula B-I-5", "img": "https://i.postimg.cc/J05pBKxN/IMG-20260428-144035.jpg", "media": "https://i.postimg.cc/J05pBKxN/IMG-20260428-144035.jpg", "tipoMedia": "imagen" },
+            { "id": "B_I_6", "nombre": "Aula B-I-6", "img": "https://i.postimg.cc/prJsnkCh/IMG-20260428-144027.jpg", "media": "https://i.postimg.cc/prJsnkCh/IMG-20260428-144027.jpg", "tipoMedia": "imagen" }
+          ]
+        },
+        "p2": {
+          "A": [
+            { "id": "A_II", "nombre": "Aula A-II", "img": "https://i.postimg.cc/252GPR4g/IMG-20260612-WA0010.jpg", "media": "https://i.postimg.cc/252GPR4g/IMG-20260612-WA0010.jpg", "tipoMedia": "imagen" },
+            { "id": "A_II_1", "nombre": "Aula A-II-1", "img": "https://i.postimg.cc/1tXBSCB8/IMG-20260612-WA0008.jpg", "media": "https://i.postimg.cc/1tXBSCB8/IMG-20260612-WA0008.jpg", "tipoMedia": "imagen" },
+            { "id": "A_II_2", "nombre": "Aula A-II-2", "img": "https://i.postimg.cc/DZNgwrpb/IMG-20260612-WA0007.jpg", "media": "https://i.postimg.cc/DZNgwrpb/IMG-20260612-WA0007.jpg", "tipoMedia": "imagen" },
+            { "id": "A_II_3", "nombre": "Aula A-II-3", "img": "https://i.postimg.cc/9F7xzkhJ/IMG-20260612-WA0025.jpg", "media": "https://i.postimg.cc/9F7xzkhJ/IMG-20260612-WA0025.jpg", "tipoMedia": "imagen" },
+            { "id": "A_II_4", "nombre": "Aula A-II-4", "img": "https://i.postimg.cc/9F7xzkhJ/IMG-20260612-WA0025.jpg", "media": "https://i.postimg.cc/9F7xzkhJ/IMG-20260612-WA0025.jpg", "tipoMedia": "imagen" },
+            { "id": "A_II_5", "nombre": "Aula A-II-5", "img": "https://i.postimg.cc/zXgd3Qrx/IMG-20260612-WA0024.jpg", "media": "https://i.postimg.cc/zXgd3Qrx/IMG-20260612-WA0024.jpg", "tipoMedia": "imagen" },
+            { "id": "A_II_6", "nombre": "Aula A-II-6", "img": "https://i.postimg.cc/t4GB6zRH/IMG-20260612-WA0023.jpg", "media": "https://i.postimg.cc/t4GB6zRH/IMG-20260612-WA0023.jpg", "tipoMedia": "imagen" }
+          ],
+          "B": [
+            { "id": "B_II", "nombre": "Aula B-II", "img": "https://i.postimg.cc/DzB6tkqt/IMG-20260612-WA0011.jpg", "media": "https://i.postimg.cc/DzB6tkqt/IMG-20260612-WA0011.jpg", "tipoMedia": "imagen" },
+            { "id": "B_II_1", "nombre": "Aula B-II-1", "img": "https://i.postimg.cc/VNDg3Qjg/IMG-20260612-WA0013.jpg", "media": "https://i.postimg.cc/VNDg3Qjg/IMG-20260612-WA0013.jpg", "tipoMedia": "imagen" },
+            { "id": "B_II_2", "nombre": "Aula B-II-2", "img": "https://i.postimg.cc/d046zP8p/IMG-20260612-WA0014.jpg", "media": "https://i.postimg.cc/d046zP8p/IMG-20260612-WA0014.jpg", "tipoMedia": "imagen" },
+            { "id": "B_II_3", "nombre": "Aula B-II-3", "img": "https://i.postimg.cc/LsHvC6ZZ/IMG-20260612-WA0017.jpg", "media": "https://i.postimg.cc/LsHvC6ZZ/IMG-20260612-WA0017.jpg", "tipoMedia": "imagen" },
+            { "id": "B_II_4", "nombre": "Aula B-II-4", "img": "https://i.postimg.cc/T3jCJWhn/IMG-20260612-WA0019.jpg", "media": "https://i.postimg.cc/T3jCJWhn/IMG-20260612-WA0019.jpg", "tipoMedia": "imagen" },
+            { "id": "B_II_5", "nombre": "Aula B-II-5", "img": "https://i.postimg.cc/MpJ9BY6h/IMG-20260612-WA0021.jpg", "media": "https://i.postimg.cc/MpJ9BY6h/IMG-20260612-WA0021.jpg", "tipoMedia": "imagen" },
+            { "id": "B_II_6", "nombre": "Aula B-II-6", "img": "https://i.postimg.cc/L8FxPV4p/IMG-20260612-WA0022.jpg", "media": "https://i.postimg.cc/L8FxPV4p/IMG-20260612-WA0022.jpg", "tipoMedia": "imagen" }
+          ]
+        },
+        "p3": {
+          "A": [
+            { "id": "A_III", "nombre": "Aula A-III", "img": "https://i.postimg.cc/5yBRSf43/IMG-20260428-WA0293.jpg", "media": "https://i.postimg.cc/5yBRSf43/IMG-20260428-WA0293.jpg", "tipoMedia": "imagen" },
+            { "id": "A_III_1", "nombre": "Aula A-III-1", "img": "https://i.postimg.cc/7h3WnqHS/IMG-20260428-WA0295.jpg", "media": "https://i.postimg.cc/7h3WnqHS/IMG-20260428-WA0295.jpg", "tipoMedia": "imagen" },
+            { "id": "A_III_2", "nombre": "Aula A-III-2", "img": "https://i.postimg.cc/gjVTHGzv/IMG-20260428-WA0297.jpg", "media": "https://i.postimg.cc/gjVTHGzv/IMG-20260428-WA0297.jpg", "tipoMedia": "imagen" },
+            { "id": "A_III_3", "nombre": "Aula A-III-3", "img": "https://i.postimg.cc/nr4PGnFh/IMG-20260428-WA0302.jpg", "media": "https://i.postimg.cc/nr4PGnFh/IMG-20260428-WA0302.jpg", "tipoMedia": "imagen" },
+            { "id": "A_III_4", "nombre": "Aula A-III-4", "img": "https://i.postimg.cc/GtwfD4Cs/IMG-20260428-WA0304.jpg", "media": "https://i.postimg.cc/GtwfD4Cs/IMG-20260428-WA0304.jpg", "tipoMedia": "imagen" },
+            { "id": "A_III_5", "nombre": "Aula A-III-5", "img": "https://i.postimg.cc/MH7Fmz6Z/IMG-20260428-WA0307.jpg", "media": "https://i.postimg.cc/MH7Fmz6Z/IMG-20260428-WA0307.jpg", "tipoMedia": "imagen" },
+            { "id": "A_III_6", "nombre": "Aula A-III-6", "img": "https://i.postimg.cc/NFqnXKcF/IMG-20260428-WA0308.jpg", "media": "https://i.postimg.cc/NFqnXKcF/IMG-20260428-WA0308.jpg", "tipoMedia": "imagen" }
+          ],
+          "B": [
+            { "id": "B_III", "nombre": "Aula B-III", "img": "https://i.postimg.cc/ZRyg0rXF/IMG-20260428-WA0338.jpg", "media": "https://i.postimg.cc/ZRyg0rXF/IMG-20260428-WA0338.jpg", "tipoMedia": "imagen" },
+            { "id": "B_III_1", "nombre": "Aula B-III-1", "img": "https://i.postimg.cc/rmtbzS7S/IMG-20260428-WA0336.jpg", "media": "https://i.postimg.cc/rmtbzS7S/IMG-20260428-WA0336.jpg", "tipoMedia": "imagen" },
+            { "id": "B_III_2", "nombre": "Aula B-III-2", "img": "https://i.postimg.cc/RFn8qc2d/IMG-20260428-WA0334.jpg", "media": "https://i.postimg.cc/RFn8qc2d/IMG-20260428-WA0334.jpg", "tipoMedia": "imagen" },
+            { "id": "B_III_3", "nombre": "Aula B-III-3", "img": "https://i.postimg.cc/JnBgtb9W/IMG-20260428-WA0327.jpg", "media": "https://i.postimg.cc/JnBgtb9W/IMG-20260428-WA0327.jpg", "tipoMedia": "imagen" },
+            { "id": "B_III_4", "nombre": "Aula B-III-4", "img": "https://i.postimg.cc/wM8rN1db/IMG-20260428-WA0325.jpg", "media": "https://i.postimg.cc/wM8rN1db/IMG-20260428-WA0325.jpg", "tipoMedia": "imagen" },
+            { "id": "B_III_5", "nombre": "Aula B-III-5", "img": "https://i.postimg.cc/vTFKn4dN/IMG-20260428-WA0321.jpg", "media": "https://i.postimg.cc/vTFKn4dN/IMG-20260428-WA0321.jpg", "tipoMedia": "imagen" },
+            { "id": "B_III_6", "nombre": "Aula B-III-6", "img": "https://i.postimg.cc/cCyz3vN2/IMG-20260428-WA0319.jpg", "media": "https://i.postimg.cc/cCyz3vN2/IMG-20260428-WA0319.jpg", "tipoMedia": "imagen" }
+          ]
+        },
+        "p4": {
+          "A": [
+            { "id": "A_IV_4", "nombre": "Aula A-IV-4", "img": "https://i.postimg.cc/nrQ1jX6x/IMG-20260612-140631.jpg", "media": "https://i.postimg.cc/nrQ1jX6x/IMG-20260612-140631.jpg", "tipoMedia": "imagen" },
+            { "id": "SALON_IV", "nombre": "Salón IV", "img": "https://i.postimg.cc/6qGh28FH/IMG-20260612-WA0003.jpg", "media": "https://i.postimg.cc/6qGh28FH/IMG-20260612-WA0003.jpg", "tipoMedia": "imagen" },
+            { "id": "KARL_MARX", "nombre": "Aula Karl Marx", "img": "https://i.postimg.cc/qMrYM6wX/IMG-20260428-WA0283.jpg", "media": "https://i.postimg.cc/qMrYM6wX/IMG-20260428-WA0283.jpg", "tipoMedia": "imagen" },
+            { "id": "SCHUMPETER", "nombre": "Aula Joseph Schumpeter", "img": "https://i.postimg.cc/J48g4HxD/IMG-20260428-WA0281.jpg", "media": "https://i.postimg.cc/J48g4HxD/IMG-20260428-WA0281.jpg", "tipoMedia": "imagen" },
+            { "id": "DRUCKER", "nombre": "Aula Peter Drucker", "img": "https://i.postimg.cc/X7Wh7BLB/IMG-20260428-WA0279.jpg", "media": "https://i.postimg.cc/X7Wh7BLB/IMG-20260428-WA0279.jpg", "tipoMedia": "imagen" },
+            { "id": "KEYNES", "nombre": "Aula John Keynes", "img": "https://i.postimg.cc/tRWwjN3F/IMG-20260428-WA0272.jpg", "media": "https://i.postimg.cc/tRWwjN3F/IMG-20260428-WA0272.jpg", "tipoMedia": "imagen" },
+            { "id": "ADAM_SMITH", "nombre": "Aula Adam Smith", "img": "https://i.postimg.cc/cHzmLRkg/IMG-20260612-WA0005.jpg", "media": "https://i.postimg.cc/cHzmLRkg/IMG-20260612-WA0005.jpg", "tipoMedia": "imagen" },
+            { "id": "ASIST_ADM_P4", "nombre": "Asistencia Administrativa", "img": "https://i.postimg.cc/MZVNSm7y/IMG-20260428-WA0275.jpg", "media": "https://i.postimg.cc/MZVNSm7y/IMG-20260428-WA0275.jpg", "tipoMedia": "imagen" }
+          ],
+          "B": [
+            { "id": "B_IV", "nombre": "Aula B-IV", "img": "https://i.postimg.cc/nVBgJG4X/IMG-20260428-WA0264.jpg", "media": "https://i.postimg.cc/nVBgJG4X/IMG-20260428-WA0264.jpg", "tipoMedia": "imagen" },
+            { "id": "B_IV_1", "nombre": "Aula B-IV-1", "img": "https://i.postimg.cc/c4Wj4thw/IMG-20260428-WA0242.jpg", "media": "https://i.postimg.cc/c4Wj4thw/IMG-20260428-WA0242.jpg", "tipoMedia": "imagen" },
+            { "id": "B_IV_2", "nombre": "Aula B-IV-2", "img": "https://i.postimg.cc/SQC3hf6m/IMG-20260428-WA0260.jpg", "media": "https://i.postimg.cc/SQC3hf6m/IMG-20260428-WA0260.jpg", "tipoMedia": "imagen" },
+            { "id": "B_IV_3", "nombre": "Aula B-IV-3", "img": "https://i.postimg.cc/1Rw2Qrpk/IMG-20260428-WA0251.jpg", "media": "https://i.postimg.cc/1Rw2Qrpk/IMG-20260428-WA0251.jpg", "tipoMedia": "imagen" },
+            { "id": "B_IV_5", "nombre": "Aula B-IV-5", "img": "https://i.postimg.cc/WpgCvwGj/IMG-20260428-WA0254.jpg", "media": "https://i.postimg.cc/WpgCvwGj/IMG-20260428-WA0254.jpg", "tipoMedia": "imagen" },
+            { "id": "B_IV_6", "nombre": "Aula B-IV-6", "img": "https://i.postimg.cc/qBySTxsT/IMG-20260428-WA0249.jpg", "media": "https://i.postimg.cc/qBySTxsT/IMG-20260428-WA0249.jpg", "tipoMedia": "imagen" }
+          ]
+        },
+        "p5": {
+          "A": [
+            { "id": "A_V_2", "nombre": "Aula A-V-2", "img": "https://i.postimg.cc/hGvNRFrZ/IMG-20260428-WA0384.jpg", "media": "https://i.postimg.cc/hGvNRFrZ/IMG-20260428-WA0384.jpg", "tipoMedia": "imagen" },
+            { "id": "A_V_4", "nombre": "Aula A-V-4", "img": "https://i.postimg.cc/mrkKWxjB/IMG-20260428-WA0378.jpg", "media": "https://i.postimg.cc/mrkKWxjB/IMG-20260428-WA0378.jpg", "tipoMedia": "imagen" },
+            { "id": "A_V_5", "nombre": "Aula A-V-5", "img": "https://i.postimg.cc/QxrL9y8t/IMG-20260428-WA0431.jpg", "media": "https://i.postimg.cc/QxrL9y8t/IMG-20260428-WA0431.jpg", "tipoMedia": "imagen" }
+          ],
+          "B": [
+            { "id": "B_V_3", "nombre": "Aula B-V-3", "img": "https://i.postimg.cc/c13yJSNP/IMG-20260428-WA0441.jpg", "media": "https://i.postimg.cc/c13yJSNP/IMG-20260428-WA0441.jpg", "tipoMedia": "imagen" }
+          ]
+        },
+        "s1": {
+          "A": [
+            { "id": "LAB_CSS50", "nombre": "Laboratorio CSS50", "img": "https://i.postimg.cc/gkGSPFc5/IMG-20260428-143649.jpg", "media": "https://i.postimg.cc/gkGSPFc5/IMG-20260428-143649.jpg", "tipoMedia": "imagen" },
+            { "id": "LAB_5", "nombre": "Laboratorio 5", "img": "https://i.postimg.cc/vHGqdF8z/IMG-20260428-143616.jpg", "media": "https://i.postimg.cc/vHGqdF8z/IMG-20260428-143616.jpg", "tipoMedia": "imagen" },
+            { "id": "LAB_6", "nombre": "Laboratorio 6", "img": "https://i.postimg.cc/J4KTr6G4/IMG-20260428-143543.jpg", "media": "https://i.postimg.cc/J4KTr6G4/IMG-20260428-143543.jpg", "tipoMedia": "imagen" },
+            { "id": "LAB_NI", "nombre": "Laboratorio .NI", "img": "https://i.postimg.cc/vHXPYqcY/IMG-20260428-143049.jpg", "media": "https://i.postimg.cc/vHXPYqcY/IMG-20260428-143049.jpg", "tipoMedia": "imagen" }
+          ],
+          "B": []
+        }
+      }
+    }
+  }
+}
