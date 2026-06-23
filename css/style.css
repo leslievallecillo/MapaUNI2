@@ -325,20 +325,85 @@ body { font-family: 'Inter', sans-serif; background-color: var(--bg-primary); co
     .step-connector { display: none; }
     .steps-grid { flex-direction: column; }
     .step-card { width: 100%; }
+    .layout-grid { grid-template-columns: 1fr; gap: 40px; }
+    .footer-container { grid-template-columns: 1fr 1fr; gap: 40px; }
+    .hero-section { min-height: 80vh; padding-top: 100px; }
+    .main-heading { font-size: clamp(2.5rem, 6vw, 3.5rem); }
 }
+
 @media (max-width: 900px) {
-    .layout-grid, .footer-container { grid-template-columns: 1fr; flex-direction: column; text-align: center; }
-    .footer-info p { margin: 20px auto; }
+    .layout-grid { grid-template-columns: 1fr; gap: 30px; text-align: center; }
+    .footer-container { grid-template-columns: 1fr; text-align: center; gap: 40px; }
+    .footer-info p { margin: 20px auto; max-width: 100%; }
     .logo-footer { justify-content: center; }
+    .glass-card { padding: 30px; }
+    .glass-card h3 { font-size: 1.5rem; }
+    .card img { height: 180px; }
+    .popular-grid { grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; }
+    .steps-wrapper { grid-template-columns: 1fr 1fr; gap: 20px; }
+    .step-box { padding: 30px 20px; }
+    .testimonials-grid-new { grid-template-columns: 1fr 1fr; gap: 20px; }
+    .section-title { font-size: 1.8rem; }
+    .info-text h2 { font-size: 2rem; }
 }
+
 @media (max-width: 768px) {
     .nav-links { display: none; }
-    .button-group { flex-direction: column; width: 100%; }
-    .btn { justify-content: center; }
+    .button-group { flex-direction: column; width: 100%; align-items: center; }
+    .btn { justify-content: center; width: 100%; max-width: 300px; }
     .corner-widget { bottom: 20px; right: 20px; gap: 10px; }
-    .corner-bubble { padding: 10px 15px; font-size: 0.9rem; }
+    .corner-bubble { padding: 10px 15px; font-size: 0.9rem; max-width: 180px; }
     .corner-svg-container { width: 80px; height: 80px; }
-    .popular-grid, .testimonials-grid-new { grid-template-columns: 1fr; }
+    .popular-grid { grid-template-columns: 1fr; }
+    .testimonials-grid-new { grid-template-columns: 1fr; }
     .steps-wrapper { grid-template-columns: 1fr; }
     .section-title { font-size: 1.6rem; }
+    .hero-section { min-height: 70vh; padding-top: 80px; }
+    .hero-description { font-size: 1rem; padding: 0 10px; }
+    .main-heading { font-size: clamp(2rem, 5vw, 2.8rem); }
+    .version-badge { font-size: 0.65rem; padding: 6px 14px; }
+    .info-section, #populares-preview, #como-funciona-nuevo, #testimonios-nuevo { padding: 40px 0; }
+    .glass-card { padding: 25px 20px; }
+    .glass-card h3 { font-size: 1.3rem; }
+    .card img { height: 200px; }
+    .step-box { padding: 25px 20px; }
+    .step-icon { width: 60px; height: 60px; }
+    .step-icon .material-icons { font-size: 28px; }
+    .footer { padding: 50px 0 20px; }
+    .footer-container { gap: 30px; margin-bottom: 30px; }
+    .nav-container { padding: 0 15px; }
+    .logo { font-size: 1.2rem; gap: 8px; }
+    .logo-img { width: 35px; height: 35px; }
+}
+
+@media (max-width: 480px) {
+    .hero-section { min-height: 60vh; padding-top: 70px; }
+    .main-heading { font-size: clamp(1.8rem, 4vw, 2.2rem); }
+    .hero-description { font-size: 0.9rem; }
+    .btn { padding: 12px 20px; font-size: 0.85rem; }
+    .card img { height: 160px; }
+    .card-body { padding: 18px; }
+    .card-body h3 { font-size: 1rem; }
+    .card-body p { font-size: 0.85rem; }
+    .btn-select { padding: 8px 18px; font-size: 0.85rem; }
+    .glass-card { padding: 20px 15px; }
+    .glass-card h3 { font-size: 1.1rem; }
+    .step-box { padding: 20px 15px; }
+    .step-box h3 { font-size: 1rem; }
+    .step-box p { font-size: 0.9rem; }
+    .step-icon { width: 50px; height: 50px; }
+    .step-icon .material-icons { font-size: 24px; }
+    .section-title { font-size: 1.4rem; }
+    .section-subtitle { font-size: 0.95rem; }
+    .testimonio-card { padding: 20px; }
+    .testimonio-card p { font-size: 0.9rem; }
+    .version-badge { font-size: 0.55rem; padding: 4px 10px; gap: 6px; }
+    .pulse-dot { width: 6px; height: 6px; }
+    .corner-bubble { padding: 8px 12px; font-size: 0.75rem; max-width: 140px; }
+    .corner-svg-container { width: 60px; height: 60px; }
+    .logo { font-size: 1rem; gap: 6px; }
+    .logo-img { width: 30px; height: 30px; }
+    .footer-bottom { font-size: 0.75rem; }
+    .footer-info p { font-size: 0.85rem; }
+    .footer-enlaces ul li a, .footer-contacto p { font-size: 0.85rem; }
 }
