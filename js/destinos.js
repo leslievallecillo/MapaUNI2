@@ -252,6 +252,8 @@ document.addEventListener('DOMContentLoaded', function () {
   let rutaActiva = null;
   let pasoActual = 0;
   let userLocation = null;
+  let todosLosMarcadores = [];
+  let marcadoresRuta = [];
   
   const sitiosUNI = {
     "Edificio Rigoberto Lopez Perez": [12.131795792366901, -86.26988943520622],
@@ -427,6 +429,41 @@ document.addEventListener('DOMContentLoaded', function () {
     return puntoMasCercano;
   }
 
+  function ocultarTodosLosMarcadores() {
+    todosLosMarcadores.forEach(marker => {
+      if (mapa && mapa.hasLayer(marker)) {
+        mapa.removeLayer(marker);
+      }
+    });
+    marcadoresRuta.forEach(marker => {
+      if (mapa && mapa.hasLayer(marker)) {
+        mapa.removeLayer(marker);
+      }
+    });
+    marcadoresRuta = [];
+  }
+
+  function mostrarMarcadoresRuta(puntosRuta, nodosRuta) {
+    ocultarTodosLosMarcadores();
+    
+    if (nodosRuta && nodosRuta.length > 0) {
+      nodosRuta.forEach((nombreNodo) => {
+        if (sitiosUNI[nombreNodo]) {
+          const coords = sitiosUNI[nombreNodo];
+          const marker = L.marker(coords).addTo(mapa).bindPopup(`
+            <div style="font-family: sans-serif; min-width: 170px;">
+              <strong style="color: #001f3f; font-size: 0.9em;">📍 ${nombreNodo}</strong>
+              <hr style="margin: 5px 0; border: none; border-top: 1px solid #ddd;">
+              <span style="font-size: 0.75em; color: #666;">Latitud: ${coords[0].toFixed(6)}</span><br>
+              <span style="font-size: 0.75em; color: #666;">Longitud: ${coords[1].toFixed(6)}</span>
+            </div>
+          `);
+          marcadoresRuta.push(marker);
+        }
+      });
+    }
+  }
+
   function mostrarResumenRuta(resultadoRuta, nombreOrigen, nombreDestino) {
     const panel = document.getElementById("panelNavegacion");
     if (!panel) return;
@@ -497,6 +534,8 @@ document.addEventListener('DOMContentLoaded', function () {
     }
     
     mostrarResumenRuta(resultadoRuta, origenNombre, destinoNombre);
+    mostrarMarcadoresRuta(resultadoRuta.ruta, resultadoRuta.nodosUsados);
+    
     rutaActiva = resultadoRuta.instrucciones; pasoActual = 0;
     if (rutaActiva.length > 0) { actualizarPanelRuta(rutaActiva[0].texto, rutaActiva[0].distancia||resultadoRuta.distanciaTotal); hablar("Ruta calculada. " + rutaActiva[0].texto); }
   }
@@ -540,14 +579,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     for (let nombre in sitiosUNI) {
       const coords = sitiosUNI[nombre];
-      L.marker(coords).addTo(mapa).bindPopup(`
+      const marker = L.marker(coords).addTo(mapa).bindPopup(`
         <div style="font-family: sans-serif; min-width: 170px;">
-          <strong style="color: #001f3f; font-size: 0.9em;"> ${nombre}</strong>
+          <strong style="color: #001f3f; font-size: 0.9em;">📍 ${nombre}</strong>
           <hr style="margin: 5px 0; border: none; border-top: 1px solid #ddd;">
           <span style="font-size: 0.75em; color: #666;">Latitud: ${coords[0].toFixed(6)}</span><br>
           <span style="font-size: 0.75em; color: #666;">Longitud: ${coords[1].toFixed(6)}</span>
         </div>
       `);
+      todosLosMarcadores.push(marker);
     }
 
     const btnCentrar = document.getElementById('btnCentrar');
@@ -568,7 +608,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (btnCentrar) btnCentrar.style.display = 'inline-flex';
             if (!userMarker) {
               markerPulse = L.circleMarker(userLocation, { radius: 20, fillColor: '#00c8f5', color: '#00c8f5', weight: 1, opacity: 0.3, fillOpacity: 0.1 }).addTo(mapa);
-              userMarker = L.circleMarker(userLocation, { radius: 8, fillColor: '#ff6b35', color: 'white', weight: 2, opacity: 1, fillOpacity: 0.9 }).addTo(mapa).bindPopup(" Tú estás aquí");
+              userMarker = L.circleMarker(userLocation, { radius: 8, fillColor: '#ff6b35', color: 'white', weight: 2, opacity: 1, fillOpacity: 0.9 }).addTo(mapa).bindPopup("📍 Tú estás aquí");
               mapa.setView(userLocation, 18);
               hablar("GPS conectado.");
             } else {
@@ -596,7 +636,7 @@ document.addEventListener('DOMContentLoaded', function () {
               userLocation = [pos.coords.latitude, pos.coords.longitude];
               if (!userMarker) {
                 markerPulse = L.circleMarker(userLocation, { radius: 20, fillColor: '#00c8f5', color: '#00c8f5', weight: 1, opacity: 0.3, fillOpacity: 0.1 }).addTo(mapa);
-                userMarker = L.circleMarker(userLocation, { radius: 8, fillColor: '#ff6b35', color: 'white', weight: 2, opacity: 1, fillOpacity: 0.9 }).addTo(mapa).bindPopup(" Tu ubicación");
+                userMarker = L.circleMarker(userLocation, { radius: 8, fillColor: '#ff6b35', color: 'white', weight: 2, opacity: 1, fillOpacity: 0.9 }).addTo(mapa).bindPopup("📍 Tu ubicación");
               } else {
                 userMarker.setLatLng(userLocation);
                 markerPulse.setLatLng(userLocation);

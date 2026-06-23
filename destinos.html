@@ -107,7 +107,7 @@
                 </div>
                 <div class="nav-control">
                     <select id="origen">
-                        <option value="gps">Mi ubicación actual</option>
+                        <option value="gps">📍 Mi ubicación actual</option>
                         <option value="Entrada Principal">Entrada Principal</option>
                         <option value="Entrada IES">Portón IES</option>
                         <option value="Entrada Trasera">Portón Trasera</option>
@@ -121,12 +121,10 @@
                     </select>
                     <button id="btnIr">Trazar Ruta</button>
                 </div>
-                <div id="infoRuta" class="info-ruta" style="display: none;">
-                    <p id="instruccionActual" style="font-size: 20px; font-weight: 900; color: var(--primary-color); margin: 0;"></p>
-                    <p id="distanciaTexto" style="font-size: 16px; color: #555; margin: 5px 0 0 0;"></p>
-                </div>
-                <div class="map-wrapper">
-                    <div id="uni-mapa" style="height: 100%; width: 100%; z-index: 1;"></div>
+                <div class="mapa-contenedor">
+                    <div class="map-wrapper">
+                        <div id="uni-mapa" style="height: 100%; width: 100%; z-index: 1;"></div>
+                    </div>
                     <div id="panelNavegacion" class="panel-navegacion" style="display:none;">
                         <div class="panel-distancia">
                             <span id="metrosRestantes">0 m</span>
@@ -140,7 +138,7 @@
         </section>
 
         <section id="destinos" class="anim-element visible" style="padding-top: 0;">
-            <h2 class="section-title">Explorar Entornos </h2>
+            <h2 class="section-title">Explorar Entornos 360°</h2>
             <div class="carousel-container">
                 <h3 class="carousel-title">1. Edificios Principales</h3>
                 <div class="contenedor-slider">
